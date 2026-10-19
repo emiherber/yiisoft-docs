@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 08:02+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,64 +17,65 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title #
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
-msgid "015 — PhpStorm"
+msgid "015 — PhpStorm metadata and attributes"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/015-phpstorm.md
-#, no-wrap
-msgid "Metadatos de PhpStorm"
+#: ../src/en/internals/015-phpstorm.md
+#, fuzzy, no-wrap
+#| msgid "Class autoloading"
+msgid "PhpStorm metadata"
+msgstr "Autocarga de Clases (Autoloading)"
+
+#. type: Plain text
+#: ../src/en/internals/015-phpstorm.md
+msgid "[PhpStorm metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html) helps the IDE to understand code better in cases when regular types and PHPDoc tags don't help."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/015-phpstorm.md
-msgid "Los [PhpStorm metadata](https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html) ayudan al IDE a entender mejor el código en casos cuando tipos regulares y PHPDoc tags no ayudan."
-msgstr ""
-
-#. type: Plain text
-#: ../src/internals/015-phpstorm.md
-msgid "Usamos el siguiente set de estilos de codificación para metadatos."
+#: ../src/en/internals/015-phpstorm.md
+msgid "We use the following set of coding styles for metadata."
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
-msgid "Ubicación de metadatos"
+msgid "Metadata location"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/015-phpstorm.md
-msgid "Los metadatos deberían colocarse en el directorio `/.phpstorm.meta.php`."
+#: ../src/en/internals/015-phpstorm.md
+msgid "Metadata should be placed in `/.phpstorm.meta.php` directory."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/015-phpstorm.md
-msgid "La configuración debería dividirse en archivos. Cada archivo debería nombrarse después de la clase que configura."
+#: ../src/en/internals/015-phpstorm.md
+msgid "Configuration should be split into files. Each file should be named after a class it configures."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
 msgid ""
 "> [!NOTE]\n"
-"> No hay soporte para subdirectorios en PhpStorm aún.\n"
+"> There is no support for subdirectories in PhpStorm yet.\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
-msgid "Constantes "
+msgid "Constants "
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/015-phpstorm.md
-msgid "Todos los diccionarios de constante deberían nombrarse como `{Class FQN}::{Group name}`. El nombre de grupo debería ser corto y escrito en letras mayúsculas.  Usa underscore como separador de palabras que es `\\Yiisoft\\Http\\Status::STATUSES`. Por ejemplo:"
+#: ../src/en/internals/015-phpstorm.md
+msgid "All constant dictionaries should be named as `{Class FQN}::{Group name}`. Group name should be short and written in capital letters.  Use underscore as a word separator that's `\\Yiisoft\\Http\\Status::STATUSES`. For example:"
 msgstr ""
 
 #. type: Fenced code block (php)
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
 msgid ""
 "expectedReturnValues(\n"
@@ -95,35 +96,35 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
-msgid "Atributos de PhpStorm"
+msgid "PhpStorm attributes"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/015-phpstorm.md
-msgid "Los [PhpStorm attributes](https://github.com/JetBrains/phpstorm-attributes) PUEDEN usarse en código, pero el paquete `jetbrains/phpstorm-attributes` DEBE añadirse como dependencia de dev:"
+#: ../src/en/internals/015-phpstorm.md
+msgid "[PhpStorm attributes](https://github.com/JetBrains/phpstorm-attributes) CAN be used in code, but package `jetbrains/phpstorm-attributes` MUST be added as a dev dependency:"
 msgstr ""
 
 #. type: Fenced code block (shell)
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
 msgid "composer require --dev jetbrains/phpstorm-attributes\n"
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
-msgid "Usando con ComposerRequireChecker"
+msgid "Using with ComposerRequireChecker"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/015-phpstorm.md
-msgid "Cuando [ComposerRequireChecker](https://github.com/maglnet/ComposerRequireChecker) también se usa dentro del mismo paquete, añade nombres de clase de atributos involucrados a whitelist en config. Por ejemplo:"
+#: ../src/en/internals/015-phpstorm.md
+msgid "When [ComposerRequireChecker](https://github.com/maglnet/ComposerRequireChecker) is also used within the same package, add involved attributes' class names to whitelist in config. For example:"
 msgstr ""
 
 #. type: Fenced code block (json)
-#: ../src/internals/015-phpstorm.md
+#: ../src/en/internals/015-phpstorm.md
 #, no-wrap
 msgid ""
 "{\n"

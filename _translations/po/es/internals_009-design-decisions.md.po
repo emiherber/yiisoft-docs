@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 08:02+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,180 +17,180 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title #
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "009 — Decisiones de diseño"
+msgid "009 — Design Decisions"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "En este documento, listamos las decisiones de diseño importantes tomadas durante el desarrollo de Yii3."
+#: ../src/en/internals/009-design-decisions.md
+msgid "In this document, we list important design decisions taken during Yii3 development."
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Eliminar propiedades mágicas"
+msgid "Remove magic properties"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Las propiedades mágicas en Yii 2 fueron una idea interesante que permitía a un desarrollador comenzar con una propiedad pública y luego migrar sin problemas al usar getter/setter llamados vía métodos mágicos sin cambiar el código."
+#: ../src/en/internals/009-design-decisions.md
+msgid "Magic properties in Yii 2 were an interesting idea that allowed a developer to start with public property and then seamlessly migrate to using getter/setter called via magic methods without changing the code."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "La razón principal para su eliminación en Yii 3 es que resultó en usar propiedades públicas en todas partes, por lo tanto falta de encapsulamiento y fragilidad del código."
+#: ../src/en/internals/009-design-decisions.md
+msgid "The main reason for removal in Yii 3 is that it resulted in using public properties everywhere, thus lack of encapsulation and code fragility."
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Eliminar el service locator"
+msgid "Remove the service locator"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "El service locator tanto en Yii 1 como en Yii 2 era conveniente pero también fue abusado mucho.  Aunque un contenedor de inyección de dependencia estaba disponible en Yii 2, el service locator fue generalmente preferido para causar tanto una dependencia en el service locator mismo, alto acoplamiento, código difícil de testear."
+#: ../src/en/internals/009-design-decisions.md
+msgid "Service locator both Yii 1 and Yii 2 was convenient but was also abused a lot.  Although a dependency injection container was available in Yii 2, service locator was generally preferred to cause both a dependency on the service locator itself, high coupling, hard to test code."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Yii 3 depende solo de inyección de dependencia reduciendo el acoplamiento significativamente y haciendo el código mucho más testeable."
+#: ../src/en/internals/009-design-decisions.md
+msgid "Yii 3 relies on dependency injection only lowering coupling significantly and making code way more testable."
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Extraer paquetes generales"
+msgid "Extract general packages"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Yii 1 y Yii 2 fueron comunidades totalmente cerradas. Todo el código que teníamos no era útil fuera de Yii, y la mayoría del código \"externo\" no era útil en Yii sin envoltorios. Fue notado muchas veces por comunidades externas a Yii que muchas partes de Yii están bien diseñadas y son únicas, y las usarían si estuvieran disponibles como paquetes standalone."
+#: ../src/en/internals/009-design-decisions.md
+msgid "Yii 1 and Yii 2 were fully closed communities. All the code we had wasn't useful outside Yii, and most of the \"external\" code wasn't useful in Yii without wrappers. It was noted many times by communities external to Yii that many parts of Yii are well-designed and unique, and they'd use these if these were available as standalone packages."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Como parte de Yii 3, paquetes como cache, RBAC, view, etc. fueron extraídos a paquetes independientes del framework. Los beneficios son:"
+#: ../src/en/internals/009-design-decisions.md
+msgid "As part of Yii 3 packages such as cache, RBAC, view, etc. were extracted into framework-independent packages. Benefits are:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "Aumento de uso y contribución"
+#: ../src/en/internals/009-design-decisions.md
+msgid "Increased usage and contribution"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "El equipo de Yii podría delegar mantenimiento"
+#: ../src/en/internals/009-design-decisions.md
+msgid "Yii team could delegate maintenance"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "Releases independientes son posibles"
+#: ../src/en/internals/009-design-decisions.md
+msgid "Independent releases are possible"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Adoptar PSRs"
+msgid "Adopt PSRs"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "El equipo adoptó algunos PSR en Yii 2, como PSR-4 y PSR-2.  Las interfaces en general no, aunque Yii es parte de PHP-FIG.  Principalmente porque cuando se lanzó Yii 2, estos estaban o en proceso o no adoptados lo suficiente."
+#: ../src/en/internals/009-design-decisions.md
+msgid "The team adopted some PSRs in Yii 2, such as PSR-4 and PSR-2.  Interfaces in general weren't, although Yii is part of PHP-FIG.  Mainly because when Yii 2 was released, these were either in the making or not adopted enough."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Yii3 se beneficia de los PSR ya que ahora hay muchas bibliotecas listas para usar que se pueden obtener vía Composer: backends de cache, middleware, loggers, contenedores DI, etc."
+#: ../src/en/internals/009-design-decisions.md
+msgid "Yii3 benefits from PSRs since there are nowadays many ready-to-use libraries that one can get via Composer: cache backends, middleware, loggers, DI containers, etc."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Al implementar PSR en paquetes generales, permitimos que estos sean usados en más proyectos, aumentando así el nivel de contribución."
+#: ../src/en/internals/009-design-decisions.md
+msgid "By implementing PSRs in general packages, we allow these to be used in more projects, thus raising the contribution level."
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Mejorar contenedor DI"
+msgid "Improve DI container"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "El problema del contenedor de Yii 2 era que estaba diseñado para usarse con componentes de Yii 2.  La API no está bien diseñada para usarse con clases PHP generales."
+#: ../src/en/internals/009-design-decisions.md
+msgid "The problem with the Yii 2 container was that it's tailored to be used with Yii 2 components.  API isn't well-designed to be used with general PHP classes."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "En Yii3, aseguramos que el contenedor pueda usarse para configurar convenientemente cualquier clase PHP."
+#: ../src/en/internals/009-design-decisions.md
+msgid "In Yii3, we ensured that container can be used to conveniently configure any PHP class."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Eso debería resultar en la ausencia de paquetes de wrapper específicos de Yii y más uso directo de paquetes de Composer."
+#: ../src/en/internals/009-design-decisions.md
+msgid "That should result in the absence of Yii-specific wrapper packages and more direct usages of Composer packages."
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Adoptar tipos estrictos"
+msgid "Adopt strict types"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Los tipos estrictos fueron introducidos porque:"
+#: ../src/en/internals/009-design-decisions.md
+msgid "Strict types were introduced because:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "PHP 7 ya es mainstream"
+#: ../src/en/internals/009-design-decisions.md
+msgid "PHP 7 is now mainstream"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "Aunque no resuelven problemas significativos de Yii 2, ayudan a evitar muchos problemas de desarrollo día a día"
+#: ../src/en/internals/009-design-decisions.md
+msgid "While they solve no significant Yii 2 problems, they help to avoid many day-to-day development issues"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Adoptar SemVer"
+msgid "Adopt SemVer"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "Yii 2 tiene su propia política de versiones. Problemas:"
+#: ../src/en/internals/009-design-decisions.md
+msgid "Yii 2 has its own version policy. Problems:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "No era estándar"
+#: ../src/en/internals/009-design-decisions.md
+msgid "It wasn't standard"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "Composer depende de SemVer"
+#: ../src/en/internals/009-design-decisions.md
+msgid "Composer relies on SemVer"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/009-design-decisions.md
-msgid "Es difícil soportar un framework construido sobre paquetes si la política de versionado no es estricta"
+#: ../src/en/internals/009-design-decisions.md
+msgid "It's hard to support a framework built on top of packages if the versioning policy isn't strict"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/009-design-decisions.md
+#: ../src/en/internals/009-design-decisions.md
 #, no-wrap
-msgid "Prevenir que validators muten datos"
+msgid "Prevent validators mutating data"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "En Yii 1 y Yii 2, validators como \"date\" mutaban los datos.  Era confuso para un proceso de validación que no inicialmente tenía como objetivo mutar los datos que valida."
+#: ../src/en/internals/009-design-decisions.md
+msgid "In Yii 1 and Yii 2, validators such as \"date\" were mutating data.  It was confusing for a validation process not initially meant to mutate data it validates."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/009-design-decisions.md
-msgid "[Ver discusión relacionada](https://forum.yiiframework.com/t/saving-or-killing-non-validation-in-validators/126086)."
+#: ../src/en/internals/009-design-decisions.md
+msgid "[See related discussion](https://forum.yiiframework.com/t/saving-or-killing-non-validation-in-validators/126086)."
 msgstr ""

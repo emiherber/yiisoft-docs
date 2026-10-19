@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 08:02+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,18 +17,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title #
-#: ../src/internals/005-development-tool.md
-#, no-wrap
-msgid "005 — Herramienta de desarrollo de Yii"
-msgstr ""
+#: ../src/en/internals/005-development-tool.md
+#, fuzzy, no-wrap
+#| msgid "Development tools -"
+msgid "005 — Yii development tool"
+msgstr "Herramientas de Desarrollo"
 
 #. type: Plain text
-#: ../src/internals/005-development-tool.md
-msgid "Para Yii3, el número de paquetes aumentó significativamente para lograr mayor reutilización y releases independientes.  Para facilitar el desarrollo del framework en sí, hemos creado una herramienta especial disponible en [yiisoft/yii-dev-tool](https://github.com/yiisoft/yii-dev-tool)."
+#: ../src/en/internals/005-development-tool.md
+msgid "For Yii3, the number of packages increased significantly to achieve more reusability and independent releases.  To ease development of the framework itself, we've created a special tool available from [yiisoft/yii-dev-tool](https://github.com/yiisoft/yii-dev-tool)."
 msgstr ""
 
 #. type: Fenced code block
-#: ../src/internals/005-development-tool.md
+#: ../src/en/internals/005-development-tool.md
 #, no-wrap
 msgid ""
 "$ ./yii-dev\n"
@@ -38,10 +39,10 @@ msgid ""
 "  \\__, ||_||_|  for Yii 3.0\n"
 "  |___/\n"
 "\n"
-"Esta herramienta ayuda a configurar un entorno de desarrollo para paquetes de Yii 3.\n"
+"This tool helps with setting up a development environment for Yii 3 packages.\n"
 "\n"
-"Uso:\n"
-"  comando [opciones] [argumentos]\n"
+"Usage:\n"
+"  command [options] [arguments]\n"
 "\n"
 "Options:\n"
 "  -h, --help  Display this help message\n"
@@ -59,31 +60,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/005-development-tool.md
-msgid "Hay muchos comandos disponibles. Los más importantes son `install` y `update`. Lo que hace es:"
+#: ../src/en/internals/005-development-tool.md
+msgid "There are many commands available. The most important ones are `install` and `update`. What it does is:"
 msgstr ""
 
 #. type: Bullet: '1. '
-#: ../src/internals/005-development-tool.md
-msgid "Instalar/actualizar todos los paquetes listados en [`packages.php`](https://github.com/yiisoft/yii-dev-tool/blob/master/packages.php)"
-msgstr ""
-
-#. type: Bullet: '   o '
-#: ../src/internals/005-development-tool.md
-msgid "paquete individual de esa lista si se especifica."
+#: ../src/en/internals/005-development-tool.md
+msgid "Install/update all packages listed in [`packages.php`](https://github.com/yiisoft/yii-dev-tool/blob/master/packages.php)  or individual package from that list if specified."
 msgstr ""
 
 #. type: Bullet: '2. '
-#: ../src/internals/005-development-tool.md
-msgid "Para cada paquete instalado verificar el directorio `vendor` para paquetes listados en `packages.php`.  Si hay alguno, reemplazar el directorio del paquete con un symlink a otra fuente de paquete."
+#: ../src/en/internals/005-development-tool.md
+msgid "For every package installed check `vendor` directory for packages listed in `packages.php`.  If there is any, replace the package directory with a symlink to another package source."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/005-development-tool.md
-msgid "Como resultado, tendrás muchos paquetes usando entre sí, por lo que no hay necesidad de `git push` y `composer install` / `composer update` durante el desarrollo."
+#: ../src/en/internals/005-development-tool.md
+msgid "As a result, you will have many packages using each other, so there is no need to `git push` and `composer install` / `composer update` during development."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/005-development-tool.md
-msgid "Un [ejemplo detallado](https://github.com/yiisoft/yii-dev-tool#usage-example) de uso de la herramienta está disponible en su README."
+#: ../src/en/internals/005-development-tool.md
+msgid "A [detailed example](https://github.com/yiisoft/yii-dev-tool#usage-example) of using the tool is available in its README."
 msgstr ""

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2026-05-29 09:48+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,98 +19,98 @@ msgstr ""
 #. type: Title #
 #: ../src/internals/020-package-release.md
 #, no-wrap
-msgid "020 — Liberación de paquetes"
+msgid "020 — Package release"
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/020-package-release.md
 #, no-wrap
-msgid "Criterios"
+msgid "Criteria"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "No hay issues críticos."
+msgid "No critical issues."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "Los cambios en Public API no son probables. Ha pasado algún tiempo sin issues reportados que puedan requerir cambios en API."
+msgid "Public API changes aren't likely. Some time passed w/o issues reported that may require API changes."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "Todas las dependencias son estables."
+msgid "All dependencies are stable."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "Cerca de 100% de cobertura de test con, idealmente, una puntuación MSI de 100%."
+msgid "Close to 100% test coverage with, ideally, a 100% MSI score."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "README está bien."
+msgid "README is alright."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "Todo está type-hinted excepto casos especiales."
+msgid "Everything is type-hinted unless special cases."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "Psalm analysis pasa en al menos nivel 2."
+msgid "Psalm analysis passes on at least level 2."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "phpdoc está bien."
+msgid "phpdoc is alright."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/020-package-release.md
-msgid "Public API está bien."
+msgid "Public API is alright."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/020-package-release.md
 #, no-wrap
-msgid "Política de rama de release"
+msgid "Release branch policy"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/020-package-release.md
-msgid "Usa `master` para todos los releases regulares."
+msgid "Use `master` for all regular releases."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/020-package-release.md
-msgid "Crea una rama separada solo cuando releases una nueva versión para una versión major anterior. En este caso, crea la rama desde el último tag en esa línea de la versión major anterior y aplica solo los cambios necesarios para el release."
+msgid "Create a separate branch only when releasing a new version for a previous major version. In this case, create the branch from the latest tag in that previous major version line and apply only the changes needed for the release."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/020-package-release.md
 #, no-wrap
-msgid "Instrucciones de release"
+msgid "Release instruction"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/020-package-release.md
-msgid "Libera un paquete vía [Yii Development Tool](005-development-tool.md)."
+msgid "Release a package via [Yii Development Tool](005-development-tool.md)."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/020-package-release.md
 #, no-wrap
 msgid ""
-"1. Verifica que puedas sign commits localmente (see \n"
+"1. Check that you can sign commits locally (see \n"
 "[Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)).\n"
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/internals/020-package-release.md
-msgid "Para releases regulares, extrae últimos cambios desde la rama `master`:"
+msgid "For regular releases, pull last changes from the `master` branch:"
 msgstr ""
 
 #. type: Fenced code block (shell)
@@ -123,17 +123,17 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/020-package-release.md
-msgid "Para releases de previous major version, usa la rama creada de acuerdo a la release branch policy en vez de `master`."
+msgid "For previous major version releases, use the branch created according to the release branch policy instead of `master`."
 msgstr ""
 
 #. type: Bullet: '3. '
 #: ../src/internals/020-package-release.md
-msgid "Verifica el paquete para cumplir con los criterios arriba."
+msgid "Check the package for compliance with the criteria above."
 msgstr ""
 
 #. type: Bullet: '4. '
 #: ../src/internals/020-package-release.md
-msgid "Ejecuta comando `release/make`:"
+msgid "Run `release/make` command:"
 msgstr ""
 
 #. type: Fenced code block (shell)
@@ -144,15 +144,15 @@ msgstr ""
 
 #. type: Bullet: '5. '
 #: ../src/internals/020-package-release.md
-msgid "Selecciona el tipo de versión (major, minor o patch)."
+msgid "Select the version type (major, minor or patch)."
 msgstr ""
 
 #. type: Bullet: '6. '
 #: ../src/internals/020-package-release.md
-msgid "En la pregunta \"Push commits and tags, and release on GitHub?\" verifica un diff. Si el diff está bien, responde \"yes.\""
+msgid "On the question \"Push commits and tags, and release on GitHub?\" check a diff. If the diff is alright, answer \"yes.\""
 msgstr ""
 
 #. type: Bullet: '7. '
 #: ../src/internals/020-package-release.md
-msgid "Para major y minor releases, añade un registro con release notes en [Yii Framework News](https://www.yiiframework.com/news)."
+msgid "For major and minor releases, add a record with release notes on [Yii Framework News](https://www.yiiframework.com/news)."
 msgstr ""

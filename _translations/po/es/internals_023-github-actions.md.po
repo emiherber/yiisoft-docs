@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2026-04-05 07:15+0000\n"
 "PO-Revision-Date: 2026-04-05 07:15+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,23 +24,23 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/023-github-actions.md
-msgid "Este documento define las naming conventions para los archivos de configuración de GitHub Actions."
+msgid "This document defines naming convention for the GitHub actions configuration files."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/023-github-actions.md
 #, no-wrap
-msgid "Inputs y Outputs"
+msgid "Inputs and Outputs"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/023-github-actions.md
-msgid "Los nombres de input y output deben usar formato kebab-case."
+msgid "Input names and output names must use kebab-case format."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/023-github-actions.md
-msgid "Por ejemplo:"
+msgid "For example:"
 msgstr ""
 
 #. type: Fenced code block (yaml)
@@ -55,12 +55,12 @@ msgstr ""
 #. type: Title ##
 #: ../src/internals/023-github-actions.md
 #, no-wrap
-msgid "Secrets y Environment Variables"
+msgid "Secrets and Environment Variables"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/023-github-actions.md
-msgid "Secret names y nombres de variables de entorno deben usar formato SCREAMING_SNAKE_CASE."
+msgid "Secret names and environment variable names must use SCREAMING_SNAKE_CASE format."
 msgstr ""
 
 #. type: Fenced code block (yaml)

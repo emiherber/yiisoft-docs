@@ -1,46 +1,51 @@
-# Yii Framework Internals
+# Componentes internos de Yii Framework
 
-This section contains documentation for developers contributing to the Yii
-framework itself.  It covers guidelines, workflows, and best practices for
-maintaining and developing Yii packages.
+Esta sección contiene documentación para desarrolladores que contribuyen al
+propio framework Yii. Cubre directrices, flujos de trabajo y mejores
+prácticas para mantener y desarrollar paquetes de Yii.
 
-## Table of Contents
+## Tabla de Contenidos
 
-- [000 — Packages](000-packages.md) - Package structure and naming
-  conventions
-- [001 — Yii goal and values](001-yii-values.md) - Project goals and core
-  values
-- [002 — Issue workflow](002-issue-workflow.md) - How to handle issues
-- [003 — Roadmap](003-roadmap.md) - Development roadmap and future plans
-- [004 — Namespaces](004-namespaces.md) - Namespace conventions
-- [005 — Yii development tool](005-development-tool.md) - Development tools
-  for Yii packages
-- [006 — Git commit messages](006-git-commit-messages.md) - Commit message
-  format
-- [007 — Exceptions](007-exceptions.md) - Exception handling guidelines
-- [008 — Interfaces](008-interfaces.md) - Interface design principles
-- [009 — Design Decisions](009-design-decisions.md) - Architectural and
-  design decisions
-- [010 — Code style](010-code-style.md) - PHP code style guidelines
-- [011 — Error correction](011-error-correction.md) - Error handling and
-  correction
-- [012 — Tests](012-tests.md) - Testing guidelines and practices
-- [013 — Code review](013-code-review.md) - Code review process and
-  guidelines
-- [014 — Documentation](014-docs.md) - Documentation writing guidelines
-- [015 — PhpStorm metadata and attributes](015-phpstorm.md) - PhpStorm
-  integration
-- [016 — Security workflow](016-security-workflow.md) - Security issue
-  handling
-- [017 — Tags](017-tags.md) - Git tagging conventions
-- [018 — Widgets](018-widgets.md) - Widget development guidelines
-- [019 — View code style](019-view-code-style.md) - Code style for view
-  templates
-- [020 — Package release](020-package-release.md) - Release process for
-  packages
-- [021 — Changelog and upgrade](021-changelog-upgrade.md) - Maintaining
-  changelogs and upgrade notes
-- [022 — Config groups](022-config-groups.md) - Configuration group
-  organization
-- [023 - GitHub Actions](023-github-actions.md) - GitHub actions
-  configuration
+- [000 — Paquetes](000-packages.md) - Estructura de paquetes y convenciones
+  de nombres
+- [001 — Objetivo y valores de Yii](001-yii-values.md) - Objetivos del
+  proyecto y valores centrales
+- [002 — Flujo de trabajo de Issues](002-issue-workflow.md) - Cómo manejar
+  issues
+- 003 — Hoja de ruta](003-roadmap.md) - Hoja de ruta de desarrollo y planes
+  futuros
+- [004 — Namespaces](004-namespaces.md) - Convenciones de namespace
+- [005 — Herramienta de desarrollo de Yii](005-development-tool.md) -
+  Herramientas de desarrollo para paquetes de Yii
+- 006 — Mensajes de commit de Git](006-git-commit-messages.md) - Formato de
+  mensajes de commit
+- [007 — Excepciones](007-exceptions.md) - Directrices de manejo de
+  excepciones
+- [008 — Interfaces](008-interfaces.md) - Principios de diseño de interfaces
+- [009 — Decisiones de diseño](009-design-decisions.md) - Decisiones
+  arquitectónicas y de diseño
+- [010 — Code style](010-code-style.md) - Directrices de estilo de código
+  PHP
+- [011 — Corrección de errores](011-error-correction.md) - Manejo y
+  corrección de errores
+- [012 — Pruebas](012-tests.md) - Directrices y prácticas de testing
+- [013 — Revisión de código](013-code-review.md) - Proceso y directrices de
+  revisión de código
+- [014 — Documentación](014-docs.md) - Directrices de redacción de
+  documentación
+- [015 — Metadatos y atributos de PhpStorm](015-phpstorm.md) - Integración
+  con PhpStorm
+- [016 — Flujo de trabajo de seguridad](016-security-workflow.md) - Manejo
+  de issues de seguridad
+- [017 — Etiquetas](017-tags.md) - Convenciones de etiquetado de Git
+- [018 — Widgets](018-widgets.md) - Directrices de desarrollo de widgets
+- [019 — Estilo de código de vistas](019-view-code-style.md) - Estilo de
+  código para plantillas de vista
+- [020 — Liberación de paquetes](020-package-release.md) - Proceso de
+  liberación de paquetes
+- [021 — Registro de cambios y actualización](021-changelog-upgrade.md) -
+  Mantenimiento de registros de cambios y notas de actualización
+- [022 — Grupos de configuración](022-config-groups.md) - Organización de
+  grupos de configuración
+- [023 - GitHub Actions](023-github-actions.md) - Configuración de GitHub
+  Actions

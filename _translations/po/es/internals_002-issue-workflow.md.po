@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 10:12+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/002-issue-workflow.md
-msgid "El proceso de manejo de issues entrantes es el siguiente:"
+msgid "The process of handing incoming issues is the following:"
 msgstr ""
 
 #. type: Plain text
@@ -40,37 +40,37 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/002-issue-workflow.md
-msgid "Tenemos muchos roles:"
+msgid "We've many roles:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/002-issue-workflow.md
-msgid "**Process managers** - inicialmente triage issues y gestionan labels."
+msgid "Process managers - initially triage issues and manage labels."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/002-issue-workflow.md
-msgid "**Decision makers** - participan en discusiones moviéndolas hacia resoluciones."
+msgid "Decision makers - participate in discussions moving them to resolutions."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/002-issue-workflow.md
-msgid "**Bug hunters** - verifican bugs."
+msgid "Bug hunters - verifying bugs."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/002-issue-workflow.md
-msgid "**Contributors** - crean código para pull requests."
+msgid "Contributors - create code for pull requests."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/002-issue-workflow.md
-msgid "**Code reviewers** - revisan pull requests."
+msgid "Code reviewers - review pull requests."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/002-issue-workflow.md
-msgid "Una sola persona puede asumir uno o más roles en el proceso de resolución de issues."
+msgid "A single person may take one or more roles in the issue-resolving process."
 msgstr ""
 
 #. type: Title ##
@@ -81,7 +81,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/002-issue-workflow.md
-msgid "Labelamos issues para marcar muchas cosas: estado actual, tipo de issue, componente afectado. Los labels de estado hablan por sí mismos."
+msgid "We label issues to mark many things: current status, issue type, component affected. Status labels speak for themselves."
 msgstr ""
 
 #. type: Title ##
@@ -92,5 +92,5 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/002-issue-workflow.md
-msgid "Los issues no se asignan a milestones a menos que sean críticos o exista una buena pull request probable."
+msgid "Issues aren't assigned to milestones unless they're critical or there is a likely good pull request exists."
 msgstr ""

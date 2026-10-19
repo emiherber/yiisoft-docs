@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2026-01-08 08:54+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,23 +19,23 @@ msgstr ""
 #. type: Title #
 #: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
-msgid "021 — Registro de cambios y actualización"
+msgid "021 — Changelog and upgrade"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "Para todos los paquetes released, tenemos un registro de cambios detallado y una guía de actualización."
+msgid "For all released packages, we've a detailed changelog and upgrade guide."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
-msgid "Registro de cambios"
+msgid "Changelog"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "El registro de cambios se escribe para cada versión released. El nombre de archivo es `CHANGELOG.md`. El formato es el siguiente:"
+msgid "Changelog is written for each version released. The file name is `CHANGELOG.md`. The format is the following:"
 msgstr ""
 
 #. type: Fenced code block (markdown)
@@ -59,53 +59,53 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "Aquí \"My package\" es el nombre del paquete, `1.0.1` es la versión released seguida por la fecha de release.  Para cada versión, hay un número de líneas listando los cambios.  \"Bug\" se refiere a un tipo de cambio.  Los siguientes tipos son usados:"
+msgid "There \"My package\" is the name of the package, `1.0.1` is the version released followed by release date.  For each version, there are a number of lines listing the changes.  \"Bug\" refers to a change type.  The following types are used:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/021-changelog-upgrade.md
-msgid "New — Nuevas características."
+msgid "New — New features."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/021-changelog-upgrade.md
-msgid "Chg — Cambios generales."
+msgid "Chg — General changes."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/021-changelog-upgrade.md
-msgid "Enh — Mejoras de características existentes."
+msgid "Enh — Existing feature enhancements."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/021-changelog-upgrade.md
-msgid "Bug — Correcciones de bugs."
+msgid "Bug — Bug fixes."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "En el registro de cambios, las líneas deberían estar ordenadas como New, Chg, Enh, Bug."
+msgid "In the changelog file lines should be ordered as New, Chg, Enh, Bug."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "\"#42\" arriba es el número de issue o pull requests correspondiente al cambio. \"author1\" es el GitHub nickname del código author. \"author2\" es un autor adicional. El nickname de un autor DEBE ser prefixed con `@`."
+msgid "\"#42\" above is the number of issue or pull requests corresponding to the change. \"author1\" is the GitHub nickname of the code author. \"author2\" is an additional author. An author's nickname MUST be prefixed with `@`."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
-msgid "Actualización"
+msgid "Upgrade"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "La guía de actualización es creada cuando hay una nueva versión major que no es compatible con la versión anterior.  Describe los pasos necesarios para actualizar el código de la aplicación."
+msgid "Upgrade guide is created when there is a new major version that isn't compatible with the previous one.  It describes steps necessary to upgrade application code."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/021-changelog-upgrade.md
-msgid "El nombre de archivo es `UPGRADE.md`. El formato es el siguiente:"
+msgid "The file name is `UPGRADE.md`. The format is the following:"
 msgstr ""
 
 #. type: Fenced code block (markdown)

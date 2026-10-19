@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2026-06-05 20:33+0000\n"
 "PO-Revision-Date: 2025-09-04 11:19+0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -504,8 +504,9 @@ msgstr ""
 msgid "decimal"
 msgstr ""
 
-#. type: Bullet: '- '
-#: ../src/guide/databases/db-migrations.md
+#. type: Title ##
+#: ../src/guide/databases/db-migrations.md ../src/internals/010-code-style.md
+#, no-wrap
 msgid "Strings"
 msgstr ""
 

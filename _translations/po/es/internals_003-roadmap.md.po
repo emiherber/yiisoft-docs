@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2026-01-10 15:51+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,6 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title ##
+#: ../src/index.md ../src/internals/003-roadmap.md
+#, no-wrap
+msgid "Documentation"
+msgstr "Documentación"
 
 #. type: Title ##
 #: ../src/cookbook/sentry-integration.md ../src/internals/003-roadmap.md
@@ -30,38 +36,38 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "Queremos que Yii 3:"
+msgid "We want Yii 3 to:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "No limite a un desarrollador al elegir arquitectura. Permite todo desde \"clásico\" MVC hasta DDD."
+msgid "Not limit a developer to choosing architecture. Allow anything from \"classic\" MVC to DDD."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "Se base en las mejores prácticas como SOLID, GRASP, etc. y enseñarlas a la comunidad."
+msgid "Be based on the best practices such as SOLID, GRASP, etc. and teach them to the community."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "Mantenga lo mejor de Yii 2."
+msgid "Keep the most good things from Yii 2."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "Sea más abierta a la comunidad global de PHP y su infraestructura."
+msgid "Be more open to the global PHP community and infrastructure."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
 #, no-wrap
-msgid "Cumplimiento de PSR"
+msgid "PSRs compliance"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "El cumplimiento de PSR ayuda con la personalización, la capacidad de usar bibliotecas generales de PHP e implementar menos envoltorios.  Aquí está la lista de PSRs que queremos implementar."
+msgid "PSR compliance helps with customizability, the ability to use general PHP libraries and implement fewer wrappers.  Here's the list of PSRs we want to implement."
 msgstr ""
 
 #. type: Title ###
@@ -72,29 +78,29 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "Implementado como un [paquete separado que no depende de un framework](https://github.com/yiisoft/log)."
+msgid "Implemented as a [separate package that isn't dependent on a framework](https://github.com/yiisoft/log)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Los paquetes del framework deben depender solo de la interfaz."
+msgid "[x] Framework packages should depend on interface only."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Dividir los drivers en paquetes."
+msgid "[x] Split drivers into packages."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Limpiar el código."
+msgid "[x] Clean-up code."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] [Corregir email target](https://github.com/yiisoft/log-target-email)."
+msgid "[x] [Fix email target](https://github.com/yiisoft/log-target-email)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Title ###
@@ -106,12 +112,12 @@ msgstr "Autocarga de Clases (Autoloading)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] El autoloading ya funciona bien."
+msgid "[x] Autoloading is fine already."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Documentar cómo funciona."
+msgid "[x] Document on how it works."
 msgstr ""
 
 #. type: Title ###
@@ -122,12 +128,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Eliminar nuestra propia implementación. Al menos por ahora."
+msgid "[x] Remove our own implementation. At least for now."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Los paquetes del framework deben depender solo de interfaces."
+msgid "[x] Framework packages should depend on interfaces only."
 msgstr ""
 
 #. type: Title ###
@@ -138,29 +144,29 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "Implementado como un [paquete separado que no depende de un framework](https://github.com/yiisoft/di)."
+msgid "Implemented as a [separate package that isn't dependent on a framework](https://github.com/yiisoft/di)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Los paquetes del framework no deberían usar el contenedor directamente. Se debe poder instanciar todo manualmente."
+msgid "[x] Framework packages shouldn't use container directly. One should be able to instantiate everything manually."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Terminar la refactorización."
+msgid "[x] Finish refactoring."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Eliminar todas las implementaciones específicas del framework del paquete. Mover a un framework."
+msgid "[x] Remove all framework-specific implementations from the package. Move to a framework."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] [Implementar fallback de autoloader](https://github.com/yiisoft/di/issues/88)"
+msgid "[x] [Implement autoloader fallback](https://github.com/yiisoft/di/issues/88)"
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Title ###
@@ -171,12 +177,12 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Asegurar que el código la siga."
+msgid "[x] Make sure the code follows it."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Automatizar la corrección de estilo antes del lanzamiento."
+msgid "[x] Automate fixing style before release."
 msgstr ""
 
 #. type: Title ###
@@ -189,17 +195,17 @@ msgstr ""
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] [Implementar como una biblioteca separada](https://github.com/yiisoft/event-dispatcher)."
+msgid "[x] [Implement as a separate library](https://github.com/yiisoft/event-dispatcher)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Usar en otros paquetes."
+msgid "[x] Use in other packages."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Pulir."
+msgid "[x] Polish."
 msgstr ""
 
 #. type: Title ###
@@ -210,27 +216,27 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Reescribir el flujo HTTP a PSR-7 request-response + formato de respuesta vía emitter."
+msgid "[x] Rewrite HTTP flow to PSR-7 request-response + formatting response via emitter."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Ofrecer SAPI emitter fuera de la caja."
+msgid "[x] Offer SAPI emitter out of the box."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Hacer posible usar emitters alternativos como RoadRunner."
+msgid "[x] Make it possible to use alternative emitters such as RoadRunner."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Soportar middleware."
+msgid "[x] Support middleware."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Implementar filtros como middleware:"
+msgid "[x] Implement filters as middleware:"
 msgstr ""
 
 #. type: Bullet: '  - '
@@ -247,12 +253,12 @@ msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/gu
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Re-implementar router con soporte de middleware para grupos de rutas."
+msgid "[x] Re-implement router w/ middleware support for route groups."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Los filtros deberían ser middlewares."
+msgid "[x] Filters should be middlewares."
 msgstr ""
 
 #. type: Title ###
@@ -263,7 +269,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "Implementado como un [paquete separado que no depende de un framework](https://github.com/yiisoft/cache)."
+msgid "Implemented as a [separate package that isn't dependent on a framework](https://github.com/yiisoft/cache)."
 msgstr ""
 
 #. type: Title ###
@@ -274,7 +280,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Usar PSR factories."
+msgid "[x] Use PSR factories."
 msgstr ""
 
 #. type: Title ###
@@ -286,34 +292,37 @@ msgstr ""
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
 #, no-wrap
-msgid "Tipos más estrictos"
+msgid "Stricter types"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Asegurar que el type hinting se usa en todas partes."
+msgid "[x] Make sure type hinting is used everywhere."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Asegurar que los tipos sean lo más definitivos posibles. Evitar tipos variables si es posible."
+msgid "[x] Make sure types are as definitive as possible. Avoid varying types if possible."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
-#, no-wrap
-msgid "Plantilla de aplicación única"
+#, fuzzy, no-wrap
+#| msgid "Introduction +"
+msgid "Single application template"
+msgstr "Introducción"
+
+#. type: Bullet: '- '
+#: ../src/internals/003-roadmap.md
+msgid "[x] Drop basic/advanced."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Eliminar basic/advanced."
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/003-roadmap.md
-msgid "[x] Crear una [plantilla de aplicación única que funcione fuera de la caja](https://github.com/yiisoft/app)."
-msgstr ""
+#, fuzzy
+#| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
+msgid "[x] Create a [single application template that works out of the box](https://github.com/yiisoft/app)."
+msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
@@ -323,130 +332,126 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "Implementado como un [paquete separado que no depende de un framework](https://github.com/yiisoft/router)."
+msgid "Implemented as a [separate package that isn't dependent on a framework](https://github.com/yiisoft/router)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] DSL para configuración."
+#, fuzzy
+msgid "[x] DSL for configuration."
+msgstr "Introducción"
+
+#. type: Bullet: '- '
+#: ../src/internals/003-roadmap.md
+msgid "[x] Ability to route to any callable."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Capacidad de enrutar a cualquier callable."
+msgid "[x] Named routes."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Rutas nombradas."
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/003-roadmap.md
-msgid "[x] Grupos de rutas con soporte de middleware."
+msgid "[x] Route groups w/ middleware support."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
 #, no-wrap
-msgid "Mejores prácticas y cumplimiento SOLID de todas las clases/paquetes"
+msgid "Best practices and SOLID compliance of all classes/packages"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Asegurar que las interfaces sigan el principio de \"segregación de interfaces\"."
+msgid "[x] Make sure interfaces follow the \"interface segregation\" principle."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] No usar propiedades públicas."
+msgid "[x] Don't use public properties."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] No usar `init()`."
+msgid "[x] Don't use `init()`."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] No heredar de `BaseObject` o `Component`. Eliminar estos."
+msgid "[x] Don't inherit from `BaseObject` or `Component`. Remove these."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Sin globales."
+msgid "[x] No globals."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Sin llamadas estáticas excepto helpers que son finales."
+msgid "[x] No static calls except helpers that are final."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Preferir lanzar excepciones a corregir input."
+msgid "[x] Prefer throwing exceptions to fixing input."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
-#, no-wrap
-msgid "Kit de desarrollo"
+#, fuzzy, no-wrap
+#| msgid "Development tools -"
+msgid "Development toolkit"
+msgstr "Herramientas de Desarrollo"
+
+#. type: Bullet: '- '
+#: ../src/internals/003-roadmap.md
+msgid "[x] Release command line tool"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Lanzar herramienta de línea de comandos"
+msgid "[x] Development command line tool (symlinks packages into usable application)"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Herramienta de línea de comandos de desarrollo (symlinks paquetes a aplicación usable)"
+msgid "[x] Separate web and console application"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Separar aplicación web y console"
+msgid "[x] Possibly eliminate base application (still needed)"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Posiblemente eliminar base application (aún necesaria)"
+msgid "[x] Create an interface for the console (using Symfony one)"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Crear una interfaz para la console (usando la de Symfony)"
+msgid "[x] Implementation may be one of the popular ones (using Symfony one)"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] La implementación puede ser una de las populares (usando la de Symfony)"
+msgid "[x] Ensure application can add commands via config"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Asegurar que la aplicación pueda añadir comandos vía config"
-msgstr ""
-
-#. type: Title ##
-#: ../src/internals/003-roadmap.md
-#, no-wrap
-msgid "Documentación"
+msgid "[ ] Follow best practices."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[ ] Seguir mejores prácticas."
+msgid "[ ] Don't use the \"MVC\" term."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[ ] No usar el término \"MVC\"."
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/003-roadmap.md
-msgid "[ ] Actualizar desde Yii 2."
+msgid "[ ] Upgrading from Yii 2."
 msgstr ""
 
 #. type: Title ##
@@ -457,12 +462,14 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "RBAC es implementado como [un paquete independiente del framework](https://github.com/yiisoft/rbac)."
-msgstr ""
+#, fuzzy
+#| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
+msgid "RBAC is implemented as [a framework-independent package](https://github.com/yiisoft/rbac)."
+msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Asegurar que siga las mejores prácticas."
+msgid "[x] Make sure it follows best practices."
 msgstr ""
 
 #. type: Title ##
@@ -474,70 +481,74 @@ msgstr "Vistas"
 
 #. type: Plain text
 #: ../src/internals/003-roadmap.md
-msgid "View es implementado como [paquete independiente del framework](https://github.com/yiisoft/view)."
-msgstr ""
+#, fuzzy
+#| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
+msgid "View is implemented as [framework-independent package](https://github.com/yiisoft/view)."
+msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Terminar la refactorización ([ver issues](https://github.com/yiisoft/view/issues))."
+msgid "[x] Finish refactoring ([see issues](https://github.com/yiisoft/view/issues))."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Portear widgets."
+#, fuzzy
+#| msgid "Debug toolbar and debugger"
+msgid "[x] Port widgets."
+msgstr "Depurador y Barra de Herramientas de Depuración"
+
+#. type: Bullet: '- '
+#: ../src/internals/003-roadmap.md
+msgid "[x] Rethink and implement active form widgets."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Replantear e implementar active form widgets."
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/003-roadmap.md
-msgid "[x] Implementar caching widgets."
+msgid "[x] Implement caching widgets."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md
 #, no-wrap
-msgid "Abstracciones de datos y grid"
+msgid "Data abstractions and grid"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Terminar [data abstractions](https://github.com/yiisoft/data)."
+msgid "[x] Finish [data abstractions](https://github.com/yiisoft/data)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Portear sort, usar data abstractions. Debería ser parte de [yii-dataview](https://github.com/yiisoft/yii-dataview)."
+msgid "[x] Port sort, use data abstractions. Should be part of [yii-dataview](https://github.com/yiisoft/yii-dataview)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Portear paging, usar data abstractions. Debería ser parte de [yii-dataview](https://github.com/yiisoft/yii-dataview)."
+msgid "[x] Port paging, use data abstractions. Should be part of [yii-dataview](https://github.com/yiisoft/yii-dataview)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Portear grid, usar data abstractions. Debería ser parte de [yii-dataview](https://github.com/yiisoft/yii-dataview)."
+msgid "[x] Port grid, use data abstractions. Should be part of [yii-dataview](https://github.com/yiisoft/yii-dataview)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Portear list, usar data abstractions. Debería ser parte de [yii-dataview](https://github.com/yiisoft/yii-dataview)."
+msgid "[x] Port list, use data abstractions. Should be part of [yii-dataview](https://github.com/yiisoft/yii-dataview)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Title ##
@@ -550,12 +561,12 @@ msgstr ""
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Terminar [el paquete principal](https://github.com/yiisoft/validator) redesign"
+msgid "[x] Finish [the main package](https://github.com/yiisoft/validator) redesign"
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Portear validators necesarios"
+msgid "[x] Port necessary validators"
 msgstr ""
 
 #. type: Title ##
@@ -569,7 +580,7 @@ msgstr "Depurador y Barra de Herramientas de Depuración"
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "Debug toolbar and debugger"
-msgid "[x] Portear debug toolbar."
+msgid "[x] Port debug toolbar."
 msgstr "Depurador y Barra de Herramientas de Depuración"
 
 #. type: Title ##
@@ -580,7 +591,7 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Portear Gii."
+msgid "[x] Port Gii."
 msgstr ""
 
 #. type: Title ##
@@ -593,35 +604,35 @@ msgstr ""
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Cubrir [config](https://github.com/yiisoft/config) con tests."
+msgid "[x] Cover [config](https://github.com/yiisoft/config) with tests."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
 #, fuzzy
 #| msgid "[Validating input](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md) +"
-msgid "[x] Lanzar [config](https://github.com/yiisoft/config) estable."
+msgid "[x] Release stable [config](https://github.com/yiisoft/config)."
 msgstr "[Validar Datos](https://github.com/yiisoft/validator/blob/master/docs/guide/en/README.md)"
 
 #. type: Title ##
 #: ../src/internals/003-roadmap.md ../src/internals/022-config-groups.md
 #, no-wrap
-msgid "Otros"
+msgid "Others"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] [Decidir namespaces](https://forum.yiiframework.com/t/lowercase-or-camelcase-namespaces/124983/52)."
+msgid "[x] [Decide on namespaces](https://forum.yiiframework.com/t/lowercase-or-camelcase-namespaces/124983/52)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] [Limpiar error handler](https://github.com/yiisoft/yii2/issues/14348). Asegurar que el error handler capture fatals y use response."
+msgid "[x] [Clean up error handler](https://github.com/yiisoft/yii2/issues/14348). Make sure the error handler catches fatals and is using response."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/003-roadmap.md
-msgid "[x] Hacer validators independientes de models para permitir reusarlos en handlers."
+msgid "[x] Make validators independent of models to allow reusing them in handlers."
 msgstr ""
 
 #. type: Bullet: '- '

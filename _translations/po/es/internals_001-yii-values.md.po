@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 08:02+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,234 +17,229 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title #
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "001 — Objetivos y valores de Yii"
+msgid "001 — Yii goal and values"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Objetivo"
+msgid "Goal"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "El proyecto Yii tiene como objetivo construir y apoyar herramientas _prácticas_ y _útiles_ y una comunidad."
+#: ../src/en/internals/001-yii-values.md
+msgid "The Yii project aims to build and support _practical_ and _helpful_ tools and community."
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Valores"
+msgid "Values"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Los valores que expresamos en nuestro trabajo apoyan el objetivo. Intentamos"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Ser prácticos"
-msgstr ""
-
-#. type: Bullet: '    - '
-#: ../src/internals/001-yii-values.md
-msgid "[Alto rendimiento](#alto-rendimiento)"
-msgstr ""
-
-#. type: Bullet: '    - '
-#: ../src/internals/001-yii-values.md
-msgid "[Valores por defecto sensatos y flexibilidad](#valores-por-defecto-sensatos-y-flexibilidad)"
-msgstr ""
-
-#. type: Bullet: '    - '
-#: ../src/internals/001-yii-values.md
-msgid "[Ser orientado a la práctica](#ser-orientado-a-la-práctica)"
+#: ../src/en/internals/001-yii-values.md
+msgid "The values we express in our work support the goal. We try to"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Ser útil"
+msgid "Be practical"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: ../src/internals/001-yii-values.md
-msgid "[Ser simple](#ser-simple)"
+#: ../src/en/internals/001-yii-values.md
+msgid "[High performance](#high-performance)"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: ../src/internals/001-yii-values.md
-msgid "[Ser explícito](#ser-explícito)"
+#: ../src/en/internals/001-yii-values.md
+msgid "[Sensible defaults and flexibility](#sensible-defaults-and-flexibility)"
 msgstr ""
 
 #. type: Bullet: '    - '
-#: ../src/internals/001-yii-values.md
-msgid "[Ser consistente](#ser-consistente)"
-msgstr ""
+#: ../src/en/internals/001-yii-values.md
+#, fuzzy
+#| msgid "[Best practices](security/best-practices.md) +"
+msgid "[Be practice-oriented](#be-practice-oriented)"
+msgstr "[Buenas Prácticas](security/best-practices.md)"
 
 #. type: Title ##
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Ser práctico"
+msgid "Be helpful"
+msgstr ""
+
+#. type: Bullet: '    - '
+#: ../src/en/internals/001-yii-values.md
+msgid "[Be simple](#be-simple)"
+msgstr ""
+
+#. type: Bullet: '    - '
+#: ../src/en/internals/001-yii-values.md
+msgid "[Be explicit](#be-explicit)"
+msgstr ""
+
+#. type: Bullet: '    - '
+#: ../src/en/internals/001-yii-values.md
+msgid "[Be consistent](#be-consistent)"
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Alto rendimiento"
+msgid "High performance"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "El rendimiento es una condición necesaria de la practicidad. El software no debería desperdiciar recursos de máquina ni recursos humanos."
+#: ../src/en/internals/001-yii-values.md
+msgid "Performance is a necessary condition of practicality. Software shouldn't waste machine resources or human resources."
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Valores por defecto sensatos y flexibilidad"
+msgid "Sensible defaults and flexibility"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Preferimos valores por defecto sensatos y convenciones que los usuarios puedan personalizar.  Buscamos un equilibrio entre flexibilidad, disciplina y simplicidad que cumpla con necesidades comunes."
+#: ../src/en/internals/001-yii-values.md
+msgid "We prefer sensible defaults and conventions that users can customize.  We seek a balance between flexibility, discipline and simplicity that meets common needs."
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Ser orientado a la práctica"
+msgid "Be practice-oriented"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Prefirimos la práctica a la teoría. Por ejemplo:"
+#: ../src/en/internals/001-yii-values.md
+msgid "We prefer practice to theory. For example:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Las soluciones para casos de uso conocidos deberían evitar exceso de complejidad proporcionando solo la flexibilidad necesaria."
+#: ../src/en/internals/001-yii-values.md
+msgid "Solutions for known use cases should avoid excess complexity by providing only necessary flexibility."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Las implementaciones estándar deberían tener en cuenta el uso práctico."
+#: ../src/en/internals/001-yii-values.md
+msgid "Standard implementations should take practical use into account."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "La experiencia es al menos tan útil como la teoría en guiar el diseño."
+#: ../src/en/internals/001-yii-values.md
+msgid "Experience is at least as useful as theory in guiding design."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "El contexto es crítico en determinar la apropiación."
+#: ../src/en/internals/001-yii-values.md
+msgid "Context is critical in determining appropriateness."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Este valor guía decisiones técnicas así como actividad de la comunidad.  La consideración de cómo las características de software ayudan a usuarios debería guiar el desarrollo.  En cuanto a la comunidad, valoramos cualquier contribución útil, sea un pull request o una respuesta en el foro."
+#: ../src/en/internals/001-yii-values.md
+msgid "This value guides technical decisions as well as community activity.  Consideration of how software features help users should guide development.  Community-wise, we value any helpful contribution, be it a pull request or an answer in the forum."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Cuando los otros principios entran en conflicto, elegimos una solución que sea más útil para la comunidad."
+#: ../src/en/internals/001-yii-values.md
+msgid "When the other principles conflict, we choose a solution that's more helpful to the community."
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Ser simple"
+msgid "Be simple"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Las soluciones deberían ser simples y expresivas:"
+#: ../src/en/internals/001-yii-values.md
+msgid "Solutions should be simple and expressive:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Usamos tanto complejidad como se necesita y no más."
+#: ../src/en/internals/001-yii-values.md
+msgid "We use as much complexity as needed and no more."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Evitamos soluciones feas a menos que no haya alternativa."
+#: ../src/en/internals/001-yii-values.md
+msgid "We avoid ugly solutions unless there is no alternative."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Menos reglas son mejores que más reglas."
+#: ../src/en/internals/001-yii-values.md
+msgid "Fewer rules are better than more rules."
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Ser explícito"
+msgid "Be Explicit"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Prefirimos soluciones y código explícitos y obvios. Las soluciones deberían expresar claramente exactamente lo que hacen. Por ejemplo:"
+#: ../src/en/internals/001-yii-values.md
+msgid "We prefer explicit, obvious solutions and code. Solutions should clearly express exactly what they do. For example:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Una solución directa es mejor que una abstracta a menos que la abstracción tenga un propósito práctico."
+#: ../src/en/internals/001-yii-values.md
+msgid "A straightforward solution is better than an abstract one unless the abstraction has a practical purpose."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Los fallos ruidosos son mejores que fallos silenciosos o enmascarar errores."
+#: ../src/en/internals/001-yii-values.md
+msgid "Loud fails are better than silent fails or masking errors."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Los casts explícitos son mejores que PHP type juggling, los type hints son buenos."
+#: ../src/en/internals/001-yii-values.md
+msgid "Explicit casts are better than PHP type juggling, type hints are good."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Sin magia a menos que sea necesario."
+#: ../src/en/internals/001-yii-values.md
+msgid "No magic unless necessary."
 msgstr ""
 
 #. type: Title ###
-#: ../src/internals/001-yii-values.md
+#: ../src/en/internals/001-yii-values.md
 #, no-wrap
-msgid "Ser consistente"
+msgid "Be consistent"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/001-yii-values.md
-msgid "Intentamos ser consistentes en:"
+#: ../src/en/internals/001-yii-values.md
+msgid "We try to be consistent in:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Estilo de código"
-msgstr ""
-
-#. type: Title ###
-#: ../src/internals/001-yii-values.md ../src/internals/010-code-style.md
-#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
-#, no-wrap
-msgid "Nombres"
+#: ../src/en/internals/001-yii-values.md
+msgid "Code style"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Diseño"
+#: ../src/en/internals/001-yii-values.md
+msgid "Naming"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Estructura"
+#: ../src/en/internals/001-yii-values.md
+msgid "Design"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/001-yii-values.md
-msgid "Valores y objetivos"
+#: ../src/en/internals/001-yii-values.md
+msgid "Structure"
+msgstr ""
+
+#. type: Bullet: '- '
+#: ../src/en/internals/001-yii-values.md
+msgid "Values and goals"
 msgstr ""

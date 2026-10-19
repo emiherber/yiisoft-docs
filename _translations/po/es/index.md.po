@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
-"PO-Revision-Date: 2026-10-19 01:03-0300\n"
+"POT-Creation-Date: 2026-01-13 11:06+0000\n"
+"PO-Revision-Date: 2026-10-19 01:11-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -71,8 +71,8 @@ msgstr ""
 msgid "A simple, powerful and fast framework. Meet the modern, definitive guide to Yii you've always wanted."
 msgstr "Un framework sencillo, potente y rápido. Descubre la guía moderna y definitiva de Yii que siempre has deseado."
 
-#. type: Yaml Front Matter Hash Value: hero text
-#: ../src/index.md
+#. type: Title ##
+#: ../src/index.md ../src/internals/003-roadmap.md
 #, no-wrap
 msgid "Documentation"
 msgstr "Documentación"

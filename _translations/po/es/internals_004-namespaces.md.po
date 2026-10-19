@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 08:02+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,44 +16,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. type: Title ##
+#: ../src/en/cookbook/organizing-code/structuring-by-use-case-with-vertical-slices.md
+#: ../src/en/guide/concept/autoloading.md
+#: ../src/en/guide/security/best-practices.md
+#: ../src/en/guide/structure/domain.md
+#: ../src/en/guide/tutorial/console-applications.md
+#: ../src/en/internals/004-namespaces.md ../src/en/internals/007-exceptions.md
+#: ../src/en/internals/008-interfaces.md
+#, no-wrap
+msgid "References"
+msgstr "Referencias"
+
 #. type: Title #
-#: ../src/internals/004-namespaces.md
+#: ../src/en/internals/004-namespaces.md
 #, no-wrap
 msgid "004 — Namespaces"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/004-namespaces.md
-msgid "Las reglas de namespace de paquete son las siguientes:"
-msgstr ""
+#: ../src/en/internals/004-namespaces.md
+#, fuzzy
+#| msgid "Events are raised like the following:"
+msgid "Package namespace rules are the following:"
+msgstr "Los eventos se lanzan de la siguiente forma:"
 
 #. type: Bullet: '1. '
-#: ../src/internals/004-namespaces.md
-msgid "PascalCase se usa para las partes del namespace."
+#: ../src/en/internals/004-namespaces.md
+msgid "PascalCase is used for namespace parts."
 msgstr ""
 
 #. type: Bullet: '2. '
-#: ../src/internals/004-namespaces.md
-msgid "El namespace raíz del vendor es `Yiisoft`."
+#: ../src/en/internals/004-namespaces.md
+msgid "Root vendor namespace is `Yiisoft`."
 msgstr ""
 
 #. type: Bullet: '3. '
-#: ../src/internals/004-namespaces.md
-msgid "Las partes del nombre del paquete se usan en el namespace."
+#: ../src/en/internals/004-namespaces.md
+msgid "Package name parts are used in namespace."
 msgstr ""
 
 #. type: Bullet: '4. '
-#: ../src/internals/004-namespaces.md
-msgid "Se añade un adjetivo a un sustantivo y es una sola parte."
+#: ../src/en/internals/004-namespaces.md
+msgid "Adjective is added to a noun and is a single part."
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/004-namespaces.md
-msgid "Algunos ejemplos:"
+#: ../src/en/internals/004-namespaces.md
+msgid "Some examples:"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/004-namespaces.md
+#: ../src/en/internals/004-namespaces.md
 #, no-wrap
 msgid ""
 "| Package                    | Namespace                 |\n"
@@ -64,14 +78,7 @@ msgid ""
 "| yiisoft/friendly-exception | Yiisoft\\FriendlyException |\n"
 msgstr ""
 
-#. type: Title ##
-#: ../src/internals/004-namespaces.md ../src/internals/007-exceptions.md
-#: ../src/internals/008-interfaces.md
-#, fuzzy, no-wrap
-msgid "Referencias"
-msgstr "Referencias"
-
 #. type: Bullet: '- '
-#: ../src/internals/004-namespaces.md
-msgid "[Discusión del foro internacional](https://forum.yiiframework.com/t/use-yiisoft-as-a-root-namespace-instead-of-yii-for-yii-3-packages/125734)"
+#: ../src/en/internals/004-namespaces.md
+msgid "[International forum discussion](https://forum.yiiframework.com/t/use-yiisoft-as-a-root-namespace-instead-of-yii-for-yii-3-packages/125734)"
 msgstr ""

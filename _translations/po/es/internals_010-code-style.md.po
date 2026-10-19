@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2026-09-25 14:35+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,11 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. type: Title ###
-#: ../src/internals/001-yii-values.md ../src/internals/010-code-style.md
-#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+#. type: Title ##
+#: ../src/guide/databases/db-migrations.md ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Nombres"
+msgid "Strings"
 msgstr ""
 
 #. type: Title #
@@ -31,106 +30,113 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "El formato de código usado en los paquetes de Yii 3 se basa en [PER Coding Style 3.0](https://www.php-fig.org/per/coding-style/)  con reglas extra añadidas encima de él."
+msgid "Code formatting used in Yii 3 packages is based on [PER Coding Style 3.0](https://www.php-fig.org/per/coding-style/)  with extra rules added on top of it."
+msgstr ""
+
+#. type: Title ###
+#: ../src/internals/010-code-style.md ../src/internals/017-tags.md
+#: ../src/internals/018-widgets.md
+#, no-wrap
+msgid "Names"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Usa solo inglés."
+msgid "Use English only."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Usa notación camelCase, incluyendo abreviaturas (ej., `enableIdn`)."
+msgid "Use camelCase notation, including abbreviations (e.g., `enableIdn`)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Usa el nombre más corto posible, pero explicativo."
+msgid "Use the shortest possible, but an explanatory name."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Nunca recortar ni abreviar un nombre."
+msgid "Never trim or abbreviate a name."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Postfija clases, interfaces, traits y variables, que es una [collection](https://en.wikipedia.org/wiki/Collection_(abstract_data_type)), con `Collection`."
+msgid "Postfix classes, interfaces, traits and variables, which is a [collection](https://en.wikipedia.org/wiki/Collection_(abstract_data_type)), with `Collection`."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Postfija clases middleware con `Middleware`."
+msgid "Postfix middleware classes with `Middleware`."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Tipos"
+msgid "Types"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Declara [argumentos y tipos de retorno](https://www.php.net/manual/en/migration70.new-features.php) donde sea posible."
+msgid "Declare [argument and return types](https://www.php.net/manual/en/migration70.new-features.php) where possible."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "[Usa tipos para propiedades](https://wiki.php.net/rfc/typed_properties_v2)."
+msgid "[Use types for properties](https://wiki.php.net/rfc/typed_properties_v2)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Usa tipos estrictos. Evita mixed y union types donde sea posible excepto tipos compatibles como `string|Stringable`."
+msgid "Use strict typing. Avoid mixed and union types where possible except compatible types such as `string|Stringable`."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Comentarios"
+msgid "Comments"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Los comentarios inline deben evitarse a menos que el código no pueda entenderse sin ellos.  Un buen ejemplo es un workaround para un bug en una versión de PHP."
+msgid "Inline comments are to be avoided unless code couldn't be understood without them.  A good example is a workaround for a bug in a certain PHP version."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "El comentario de método es necesario a menos que no añada nada al nombre del método y firma que ya tiene."
+msgid "Method comment is necessary except it adds nothing to what method name and signature already has."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "El comentario de clase debería describir el propósito de la clase."
+msgid "Class comment should describe the purpose of the class."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Ver [PHPDoc](014-docs.md#phpdoc)."
+msgid "See [PHPDoc](014-docs.md#phpdoc)."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Formato"
+msgid "Formatting"
 msgstr ""
 
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Longitud de línea"
+msgid "Line length"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "La longitud máxima de línea es de 120 caracteres."
+msgid "The maximum line length is 120 characters."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Cuando una función o llamada de método excede el límite, divide los argumentos en líneas separadas:"
+msgid "When a function or method call exceeds the limit, split arguments into separate lines:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -146,12 +152,12 @@ msgstr ""
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Sin alineación"
+msgid "No alignment"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Las asignaciones de valores de propiedades, variables y constantes no deberían alinearse.  Lo mismo aplica a las etiquetas phpdoc. La razón es que las declaraciones alineadas a menudo causan diffs más grandes e incluso conflictos."
+msgid "Property, variable and constant value assignments shouldn't be aligned.  The same applies to phpdoc tags. The reason is that aligned statements often cause larger diff and even conflicts."
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -181,12 +187,12 @@ msgstr ""
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Llamadas encadenadas"
+msgid "Chain calls"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Las llamadas encadenadas deberían formatearse para una mejor legibilidad.  Si es una cadena larga que no cabe en la longitud de línea de 120 caracteres, entonces cada llamada debería estar en una nueva línea:"
+msgid "Chained calls should be formatted for better readability.  If it's a long chain that doesn't fit the line length of 120 characters, then each call should on a new line:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -203,7 +209,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Si es una cadena corta, está bien que esté en una sola línea:"
+msgid "If it's a short chain, it's alright for it to be on a single line:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -212,20 +218,14 @@ msgstr ""
 msgid "$object = $object->withName('test');\n"
 msgstr ""
 
-#. type: Title ##
+#. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-#, no-wrap
-msgid "Cadenas"
+msgid "When no variables involved, use `'Hello!'`"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Cuando no hay variables involucradas, usa `'¡Hola!'`"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/010-code-style.md
-msgid "Para obtener variables en la cadena, prefiere `\"Hola, $username!\"`"
+msgid "To get variables into string prefer `\"Hello, $username!\"`"
 msgstr ""
 
 #. type: Title ##
@@ -237,106 +237,109 @@ msgstr ""
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Final por defecto"
+msgid "Final by default"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Las clases deberían ser `final` por defecto."
+msgid "Classes should be `final` by default."
 msgstr ""
 
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Privado por defecto"
+msgid "Private by default"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Las constantes, propiedades y métodos deberían ser privados por defecto."
+msgid "Constants, properties and methods should be private by default."
 msgstr ""
 
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Composición sobre herencia"
+msgid "Composition over inheritance"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
 #, fuzzy
 #| msgid "[Dependency injection container](concept/di-container.md) +"
-msgid "Prefiere [composición a herencia](../guide/concept/di-container.md)."
+msgid "Prefer [composition to inheritance](../guide/concept/di-container.md)."
 msgstr "[Contenedor de Inyección de Dependencia](concept/di-container.md)"
 
 #. type: Title ###
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Orden de propiedades, constantes y métodos"
+msgid "Property, constant and method order"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "El orden debería ser el siguiente:"
+#, fuzzy
+#| msgid "The event class itself may look like the following:"
+msgid "Order should be the following:"
+msgstr "La clase del evento en sí se podría ver como esto:"
+
+#. type: Bullet: '- '
+#: ../src/internals/010-code-style.md
+msgid "Constants"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Constantes"
-msgstr ""
-
-#. type: Bullet: '- '
-#: ../src/internals/010-code-style.md
-msgid "Propiedades"
+msgid "Properties"
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/010-code-style.md ../src/internals/017-tags.md
 #: ../src/internals/018-widgets.md
 #, no-wrap
-msgid "Métodos"
+msgid "Methods"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Dentro de cada categoría, los elementos deberían ordenarse por visibilidad:"
+msgid "Within each category, items should be sorted by visibility:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Public"
+msgid "public"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Protected"
+msgid "protected"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md
-msgid "Private"
+msgid "private"
 msgstr ""
 
 #. type: Title ###
 #: ../src/internals/010-code-style.md
-#, no-wrap
-msgid "Clases abstractas"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "Events"
+msgid "Abstract classes"
+msgstr "Eventos"
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Las clases abstractas *no deberían* tener prefix ni postfix con `Abstract`."
+msgid "Abstract classes *shouldn't* be prefixed or postfixed with `Abstract`."
 msgstr ""
 
 #. type: Title ####
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Métodos inmutables"
+msgid "Immutable methods"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "La convención de métodos inmutables es la siguiente:"
+msgid "Immutable method convention is the following:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -364,12 +367,12 @@ msgstr ""
 #. type: Title ####
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Métodos de verificación booleana"
+msgid "Boolean check methods"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Los métodos que están para verificar si algo es verdadero deberían nombrarse como lo siguiente:"
+msgid "Methods that are there to check if something is true should be named like the following:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -384,12 +387,12 @@ msgstr ""
 #. type: Title ####
 #: ../src/internals/010-code-style.md
 #, no-wrap
-msgid "Banderas en métodos"
+msgid "Flags in methods "
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Las banderas booleanas en métodos son mejor evitarlas. Es una señal que el método puede estar haciendo demasiado, y debería haber dos métodos en vez de uno."
+msgid "Boolean flags in methods are better to be avoided. It's a sign the method may be doing too much, and there should be two methods instead of one."
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -400,7 +403,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Es mejor tener dos métodos:"
+msgid "It is better to be two methods:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -419,7 +422,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Añade un guion bajo (`_`) prefix para variables no usadas. Por ejemplo:"
+msgid "Add an underscore (`_`) prefix for unused variables. For example:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -439,7 +442,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/010-code-style.md
-msgid "Prefiere importar clases y funciones a usar nombres completamente calificados:"
+msgid "Prefer importing classes and functions to using fully qualified names:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -456,9 +459,9 @@ msgstr ""
 
 #. type: Title ##
 #: ../src/internals/010-code-style.md
-#, no-wrap
-msgid "Convenciones adicionales"
-msgstr ""
+#, fuzzy, no-wrap
+msgid "Additional conventions"
+msgstr "Introducción"
 
 #. type: Bullet: '- '
 #: ../src/internals/010-code-style.md

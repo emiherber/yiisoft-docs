@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"POT-Creation-Date: 2025-12-24 08:02+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,60 +16,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. type: Title ##
+#: ../src/en/guide/runtime/request.md ../src/en/guide/runtime/response.md
+#: ../src/en/internals/006-git-commit-messages.md
+#, no-wrap
+msgid "Body"
+msgstr ""
+
 #. type: Title #
-#: ../src/internals/006-git-commit-messages.md
+#: ../src/en/internals/006-git-commit-messages.md
 #, no-wrap
 msgid "006 — Git commit messages"
 msgstr ""
 
 #. type: Title ##
-#: ../src/internals/006-git-commit-messages.md
+#: ../src/en/internals/006-git-commit-messages.md
 #, no-wrap
-msgid "Línea de asunto"
+msgid "Subject line"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "Usa `#123` para referenciar el issue por número"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Use `#123` to reference issue by number"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "Usa modo imperativo, que es `Fix`, no `Fixed`"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Use imperative mood that's `Fix`, not `Fixed`"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "No añadir un punto al final"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Don't add a period at the end"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "Usa `[skip ci]` si no hay necesidad de ejecutar tests unitarios"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Use `[skip ci]` if there is no need to run unit tests"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "Comienza con una letra mayúscula"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Start with a capital letter"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "Limita a 50 caracteres"
-msgstr ""
-
-#. type: Title ##
-#: ../src/internals/006-git-commit-messages.md
-#, no-wrap
-msgid "Cuerpo"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Limit to 50 characters"
 msgstr ""
 
 #. type: Plain text
-#: ../src/internals/006-git-commit-messages.md
-msgid "Usa el cuerpo del mensaje **si** necesitas una explicación extra. Explica por qué, no cómo."
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Use the message body **if** you need an extra explanation. Explain why, not how."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/internals/006-git-commit-messages.md
-msgid "Limita la longitud de línea a 72 caracteres"
+#: ../src/en/internals/006-git-commit-messages.md
+msgid "Limit line length to 72 characters"
 msgstr ""
