@@ -70,19 +70,19 @@ sean compatibles.
 
 ## Soporte de versiones de PHP
 
-The support of PHP versions supported for a package depends on [PHP versions
-life cycle](https://www.php.net/supported-versions.php).
+El soporte de versiones de PHP para un paquete depende de el [ciclo de vida
+de las versiones de PHP](https://www.php.net/supported-versions.php).
 
-- Package versions with active support MUST support all PHP versions that
-  have active support.
-- Both packages and application templates MUST have supported versions that
-  receive bug and security fixes.  These SHOULD correspond to PHP versions
-  receiving security fixes.
-- Packages and application templates MIGHT have supported versions that work
-  with unsupported PHP versions.
-- Bumping the minimal PHP version in a package or an application template is
-  a minor change.
+- Las versiones de paquete con soporte activo DEBEN soportar todas las
+  versiones de PHP que tengan soporte activo.
+- Tanto los paquetes como las plantillas de aplicación DEBEN tener versiones
+  soportadas que reciban correcciones de errores y seguridad. Estas DEBERÍAN
+  corresponder a versiones de PHP que reciban correcciones de seguridad.
+- Los paquetes y plantillas de aplicación PUEDEN tener versiones soportadas
+  que funcionen con versiones de PHP no soportadas.
+- Incrementar la versión mínima de PHP en un paquete o una plantilla de
+  aplicación es un cambio menor.
 
 ## composer.json
 
-A logical OR operator in version ranges MUST use double pipe (`||`). For example: `"yiisoft/arrays": "^1.0 || ^2.0"`.   
+El operador OR lógico en los rangos de versión DEBE usar doble pipe (`||`). Por ejemplo: `"yiisoft/arrays": "^1.0 || ^2.0"`. 

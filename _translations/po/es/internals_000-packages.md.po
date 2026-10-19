@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-12-24 08:02+0000\n"
-"PO-Revision-Date: 2026-10-19 01:49-0300\n"
+"PO-Revision-Date: 2026-10-19 01:53-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Bullet: '    - '
 #: ../src/en/guide/start/databases.md ../src/en/internals/000-packages.md
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. type: Title #
 #: ../src/en/internals/000-packages.md
@@ -152,6 +152,12 @@ msgid ""
 "    ],\n"
 "];\n"
 msgstr ""
+"return [\r\n"
+"    'vendor/package-name' => [\r\n"
+"        'param1' => 1,\r\n"
+"        'param2' => 2,\r\n"
+"    ],\r\n"
+"];\r\n"
 
 #. type: Title ##
 #: ../src/en/internals/000-packages.md
@@ -203,36 +209,36 @@ msgstr "Soporte de versiones de PHP"
 #. type: Plain text
 #: ../src/en/internals/000-packages.md
 msgid "The support of PHP versions supported for a package depends on [PHP versions life cycle](https://www.php.net/supported-versions.php)."
-msgstr ""
+msgstr "El soporte de versiones de PHP para un paquete depende de el [ciclo de vida de las versiones de PHP](https://www.php.net/supported-versions.php)."
 
 #. type: Bullet: '- '
 #: ../src/en/internals/000-packages.md
 msgid "Package versions with active support MUST support all PHP versions that have active support."
-msgstr ""
+msgstr "Las versiones de paquete con soporte activo DEBEN soportar todas las versiones de PHP que tengan soporte activo."
 
 #. type: Bullet: '- '
 #: ../src/en/internals/000-packages.md
 msgid "Both packages and application templates MUST have supported versions that receive bug and security fixes.  These SHOULD correspond to PHP versions receiving security fixes."
-msgstr ""
+msgstr "Tanto los paquetes como las plantillas de aplicación DEBEN tener versiones soportadas que reciban correcciones de errores y seguridad. Estas DEBERÍAN corresponder a versiones de PHP que reciban correcciones de seguridad."
 
 #. type: Bullet: '- '
 #: ../src/en/internals/000-packages.md
 msgid "Packages and application templates MIGHT have supported versions that work with unsupported PHP versions."
-msgstr ""
+msgstr "Los paquetes y plantillas de aplicación PUEDEN tener versiones soportadas que funcionen con versiones de PHP no soportadas."
 
 #. type: Bullet: '- '
 #: ../src/en/internals/000-packages.md
 msgid "Bumping the minimal PHP version in a package or an application template is a minor change."
-msgstr ""
+msgstr "Incrementar la versión mínima de PHP en un paquete o una plantilla de aplicación es un cambio menor."
 
 #. type: Title ##
 #: ../src/en/internals/000-packages.md
 #, no-wrap
 msgid "composer.json"
-msgstr ""
+msgstr "composer.json"
 
 #. type: Plain text
 #: ../src/en/internals/000-packages.md
 #, no-wrap
 msgid "A logical OR operator in version ranges MUST use double pipe (`||`). For example: `\"yiisoft/arrays\": \"^1.0 || ^2.0\"`.   \n"
-msgstr ""
+msgstr "El operador OR lógico en los rangos de versión DEBE usar doble pipe (`||`). Por ejemplo: `\"yiisoft/arrays\": \"^1.0 || ^2.0\"`. \n"

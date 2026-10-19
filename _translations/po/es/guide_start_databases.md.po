@@ -99,7 +99,7 @@ msgstr ""
 #. type: Bullet: '    - '
 #: ../src/guide/start/databases.md ../src/internals/000-packages.md
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. type: Title ##
 #: ../src/guide/start/databases.md
