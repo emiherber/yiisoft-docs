@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-12-24 08:02+0000\n"
+"POT-Creation-Date: 2026-10-19 03:41+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,29 +17,29 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title #
-#: ../src/en/internals/021-changelog-upgrade.md
+#: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
-msgid "021 — Changelog and upgrade"
+msgid "021 — Registro de cambios y actualización"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "For all released packages, we've a detailed changelog and upgrade guide."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "Para todos los paquetes released, tenemos un registro de cambios detallado y una guía de actualización."
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/021-changelog-upgrade.md
+#: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
-msgid "Changelog"
+msgid "Registro de cambios"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "Changelog is written for each version released. The file name is `CHANGELOG.md`. The format is the following:"
+#: ../src/internals/021-changelog-upgrade.md
+msgid "El registro de cambios se escribe para cada versión released. El nombre de archivo es `CHANGELOG.md`. El formato es el siguiente:"
 msgstr ""
 
 #. type: Fenced code block (markdown)
-#: ../src/en/internals/021-changelog-upgrade.md
+#: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
 msgid ""
 "# My package Change Log\n"
@@ -58,58 +58,58 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "There \"My package\" is the name of the package, `1.0.1` is the version released followed by release date.  For each version, there are a number of lines listing the changes.  \"Bug\" refers to a change type.  The following types are used:"
+#: ../src/internals/021-changelog-upgrade.md
+msgid "Aquí \"My package\" es el nombre del paquete, `1.0.1` es la versión released seguida por la fecha de release.  Para cada versión, hay un número de líneas listando los cambios.  \"Bug\" se refiere a un tipo de cambio.  Los siguientes tipos son usados:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "New — New features."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "New — Nuevas características."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "Chg — General changes."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "Chg — Cambios generales."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "Enh — Existing feature enhancements."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "Enh — Mejoras de características existentes."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "Bug — Bug fixes."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "Bug — Correcciones de bugs."
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "In the changelog file lines should be ordered as New, Chg, Enh, Bug."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "En el registro de cambios, las líneas deberían estar ordenadas como New, Chg, Enh, Bug."
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "\"#42\" above is the number of issue or pull requests corresponding to the change. \"author1\" is the GitHub nickname of the code author. \"author2\" is an additional author. An author's nickname MUST be prefixed with `@`."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "\"#42\" arriba es el número de issue o pull requests correspondiente al cambio. \"author1\" es el GitHub nickname del código author. \"author2\" es un autor adicional. El nickname de un autor DEBE ser prefixed con `@`."
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/021-changelog-upgrade.md
+#: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
-msgid "Upgrade"
+msgid "Actualización"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "Upgrade guide is created when there is a new major version that isn't compatible with the previous one.  It describes steps necessary to upgrade application code."
+#: ../src/internals/021-changelog-upgrade.md
+msgid "La guía de actualización es creada cuando hay una nueva versión major que no es compatible con la versión anterior.  Describe los pasos necesarios para actualizar el código de la aplicación."
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/021-changelog-upgrade.md
-msgid "The file name is `UPGRADE.md`. The format is the following:"
+#: ../src/internals/021-changelog-upgrade.md
+msgid "El nombre de archivo es `UPGRADE.md`. El formato es el siguiente:"
 msgstr ""
 
 #. type: Fenced code block (markdown)
-#: ../src/en/internals/021-changelog-upgrade.md
+#: ../src/internals/021-changelog-upgrade.md
 #, no-wrap
 msgid ""
 "# Upgrading Instructions for my package\n"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-12-24 08:02+0000\n"
+"POT-Creation-Date: 2026-10-19 03:41+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,102 +16,101 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. type: Title ##
-#: ../src/en/guide/concept/immutability.md ../src/en/internals/017-tags.md
-#: ../src/en/internals/018-widgets.md
-#, no-wrap
-msgid "Immutability"
-msgstr ""
-
 #. type: Title ###
-#: ../src/en/internals/010-code-style.md ../src/en/internals/017-tags.md
-#: ../src/en/internals/018-widgets.md
+#: ../src/internals/001-yii-values.md ../src/internals/010-code-style.md
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
 #, no-wrap
-msgid "Names"
+msgid "Nombres"
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/010-code-style.md ../src/en/internals/017-tags.md
-#: ../src/en/internals/018-widgets.md
+#: ../src/internals/010-code-style.md ../src/internals/017-tags.md
+#: ../src/internals/018-widgets.md
 #, no-wrap
-msgid "Methods"
+msgid "Métodos"
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
 #, no-wrap
-msgid "Class names"
+msgid "Nombres de clases"
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
 #, no-wrap
-msgid "Inheritance"
+msgid "Herencia"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "Inheritance is allowed with some restrictions:"
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "La herencia está permitida con algunas restricciones:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "If a class isn't abstract, it should be final."
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "Si una clase no es abstracta, debería ser final."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "Hierarchy should be kept as linear as possible."
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "La jerarquía debería mantenerse tan lineal como sea posible."
+msgstr ""
+
+#. type: Title ##
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+#, no-wrap
+msgid "Inmutabilidad"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "Have no state."
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "No tener estado."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "Unlike other classes, methods that return a clone of the object with some properties modified aren't prefixed."
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "A diferencia de otras clases, los métodos que devuelven un clone del objeto con algunas propiedades modificadas no tienen prefix."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "Keep method names as short as possible but don't hurt readability."
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "Mantén nombres de métodos tan cortos como sea posible pero no dañes la legibilidad."
 msgstr ""
 
 #. type: Title ###
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
 #, no-wrap
-msgid "Boolean flags"
+msgid "Banderas booleanas"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/017-tags.md ../src/en/internals/018-widgets.md
-msgid "The method that corresponds to the boolean attribute should be named after the attribute and accept a boolean flag argument."
+#: ../src/internals/017-tags.md ../src/internals/018-widgets.md
+msgid "El método que corresponde al atributo booleano debería nombrarse después del atributo y aceptar un argumento boolean flag."
 msgstr ""
 
 #. type: Title #
-#: ../src/en/internals/018-widgets.md
+#: ../src/internals/018-widgets.md
 #, no-wrap
-msgid "018 - Widgets"
+msgid "018 — Widgets"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/018-widgets.md
-msgid "Unlike regular classes, widgets are used in view templates, so syntax is important.  It should be both easy to write, easy to read and not too verbose because similar constructs are meant to be used over and over again."
+#: ../src/internals/018-widgets.md
+msgid "A diferencia de clases regulares, los widgets se usan en plantillas de vista, así que la sintaxis es importante.  Debería ser fácil de escribir, fácil de leer y no demasiado verbose porque las constructs similares están pensadas para usarse una y otra vez."
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/018-widgets.md
-msgid "Widgets aren't postfixed or prefixed."
+#: ../src/internals/018-widgets.md
+msgid "Los widgets no tienen postfix ni prefix."
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/018-widgets.md
-msgid "Widgets should:"
+#: ../src/internals/018-widgets.md
+msgid "Los widgets deberían:"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/018-widgets.md
-msgid "Be immutable."
+#: ../src/internals/018-widgets.md
+msgid "Ser inmutables."
 msgstr ""

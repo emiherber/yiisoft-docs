@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-12-24 08:02+0000\n"
+"POT-Creation-Date: 2026-10-19 03:41+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,29 +17,29 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title #
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
-msgid "019 — View code style"
+msgid "019 — Estilo de código para plantillas"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/019-view-code-style.md
-msgid "The PHP code in the view files shouldn't be complicated.  The code must contain the logic responsible for formatting the data, but not the logic for requesting this data."
+#: ../src/internals/019-view-code-style.md
+msgid "El código PHP en los archivos de vista no debería ser complicado.  El código debe contener la lógica responsable de formatear los datos, pero no la lógica para solicitar estos datos."
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
-msgid "Heading"
+msgid "Encabezado"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/019-view-code-style.md
-msgid "View file heading is used to place phpdoc describing variables available and to import classes:"
+#: ../src/internals/019-view-code-style.md
+msgid "El encabezado del archivo de vista se usa para colocar phpdoc describiendo variables disponibles y para importar clases:"
 msgstr ""
 
 #. type: Fenced code block (php)
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
 msgid ""
 "<?php\n"
@@ -53,18 +53,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
-msgid "Control structures"
+msgid "Estructuras de control"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/019-view-code-style.md
-msgid "Alternative syntax for control structures such as `foreach` and `if` is preferred:"
+#: ../src/internals/019-view-code-style.md
+msgid "La sintaxis alternativa para estructuras de control como `foreach` y `if` es preferida:"
 msgstr ""
 
 #. type: Fenced code block (php)
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
 msgid ""
 "<?php foreach ($posts as $post): ?>   \n"
@@ -74,30 +74,29 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
-msgid "Short echo"
+msgid "El short echo"
 msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/019-view-code-style.md
-msgid "Short echo is preferred:"
+#: ../src/internals/019-view-code-style.md
+msgid "El short echo es preferido:"
 msgstr ""
 
 #. type: Fenced code block (php)
-#: ../src/en/internals/019-view-code-style.md
+#: ../src/internals/019-view-code-style.md
 #, no-wrap
 msgid "<?= Html::encode($name) ?>\n"
 msgstr ""
 
 #. type: Title ##
-#: ../src/en/internals/019-view-code-style.md
-#, fuzzy, no-wrap
-#| msgid "Class autoloading"
-msgid "Class methods"
-msgstr "Autocarga de Clases (Autoloading)"
+#: ../src/internals/019-view-code-style.md
+#, no-wrap
+msgid "Métodos de clase"
+msgstr ""
 
 #. type: Plain text
-#: ../src/en/internals/019-view-code-style.md
-msgid "All class methods used in view files must be public regardless if the view is rendered by the class itself."
+#: ../src/internals/019-view-code-style.md
+msgid "Todos los métodos de clase usados en archivos de vista deben ser públicos independientemente si la vista es renderizada por la clase misma."
 msgstr ""

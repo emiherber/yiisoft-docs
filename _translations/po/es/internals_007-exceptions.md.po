@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-12-24 08:02+0000\n"
+"POT-Creation-Date: 2026-10-19 03:41+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,54 +17,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Title ##
-#: ../src/en/cookbook/organizing-code/structuring-by-use-case-with-vertical-slices.md
-#: ../src/en/guide/concept/autoloading.md
-#: ../src/en/guide/security/best-practices.md
-#: ../src/en/guide/structure/domain.md
-#: ../src/en/guide/tutorial/console-applications.md
-#: ../src/en/internals/004-namespaces.md ../src/en/internals/007-exceptions.md
-#: ../src/en/internals/008-interfaces.md
-#, no-wrap
-msgid "References"
+#: ../src/internals/004-namespaces.md ../src/internals/007-exceptions.md
+#: ../src/internals/008-interfaces.md
+#, fuzzy, no-wrap
+msgid "Referencias"
 msgstr "Referencias"
 
 #. type: Title #
-#: ../src/en/internals/007-exceptions.md
+#: ../src/internals/007-exceptions.md
 #, no-wrap
 msgid "007 — Exceptions"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "Throw exceptions instead of returning an error code."
+#: ../src/internals/007-exceptions.md
+msgid "Lanza excepciones en lugar de devolver un código de error."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "Exception class name must be suffixed with `Exception`."
+#: ../src/internals/007-exceptions.md
+msgid "El nombre de clase de excepción debe terminarse con `Exception`."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "Use grammatically correct error messages including ending punctuation, that's most exceptions must end with a period."
+#: ../src/internals/007-exceptions.md
+msgid "Usa mensajes de error gramaticalmente correctos incluyendo puntuación final, que es que la mayoría de las excepciones deben terminar con un punto."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "`\\InvalidArgumentException` must be used directly. There should be no exceptions inherited from it."
+#: ../src/internals/007-exceptions.md
+msgid "`\\InvalidArgumentException` debe usarse directamente. No debería haber excepciones heredadas de él."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "`\\InvalidArgumentException` must never be caught."
+#: ../src/internals/007-exceptions.md
+msgid "`\\InvalidArgumentException` nunca debe ser capturado."
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "[International community discussion and poll](https://forum.yiiframework.com/t/naming-exceptions/126613/6)"
+#: ../src/internals/007-exceptions.md
+msgid "[Discusión y encuesta de la comunidad internacional](https://forum.yiiframework.com/t/naming-exceptions/126613/6)"
 msgstr ""
 
 #. type: Bullet: '- '
-#: ../src/en/internals/007-exceptions.md
-msgid "[Russian community discussion and poll](https://yiiframework.ru/forum/viewtopic.php?f=39&t=51290)"
+#: ../src/internals/007-exceptions.md
+msgid "[Discusión y encuesta de la comunidad rusa](https://yiiframework.ru/forum/viewtopic.php?f=39&t=51290)"
 msgstr ""

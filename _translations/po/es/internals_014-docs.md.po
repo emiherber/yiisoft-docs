@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-05 22:22+0000\n"
+"POT-Creation-Date: 2026-10-19 03:41+0000\n"
 "PO-Revision-Date: 2025-12-24 08:02+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,98 +24,96 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Documentation is one of the most important parts of Yii."
+msgid "La documentación es una de las partes más importantes de Yii."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/014-docs.md
-#, fuzzy, no-wrap
-#| msgid "Generating API documentation"
-msgid "Package documentation"
-msgstr "Generación de Documentación de API"
-
-#. type: Plain text
-#: ../src/internals/014-docs.md
-msgid "Documentation for a package could either be in `README.md` or `docs/{language}/{type}` where `{language}` is a language code and `{type}` could be \"guide,\" \"cookbook\" or something else.  Usually `docs` is there if the package usage or configuration isn't trivial or there's a need for translation."
+#, no-wrap
+msgid "Documentación de paquetes"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Some indicators that it's time to create `docs`:"
+msgid "La documentación para un paquete puede estar en `README.md` o en `docs/{language}/{type}` donde `{language}` es un código de idioma y `{type}` puede ser \"guide\", \"cookbook\" o algo más.  Usualmente `docs` está ahí si el uso del paquete o configuración no es trivial o hay necesidad de traducción."
+msgstr ""
+
+#. type: Plain text
+#: ../src/internals/014-docs.md
+msgid "Algunos indicadores de que es hora de crear `docs`:"
 msgstr ""
 
 #. type: Bullet: '1. '
 #: ../src/internals/014-docs.md
-msgid "There is a need for translation."
+msgid "Hay necesidad de traducción."
 msgstr ""
 
 #. type: Bullet: '2. '
 #: ../src/internals/014-docs.md
-msgid "Many topics exist. Each of these is big by itself."
+msgid "Muchos temas existen. Cada uno de estos es grande por sí mismo."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "If the total length of readme is less than about 200 lines, it's fine to keep documentation in the readme."
+msgid "Si la longitud total del readme es menos de aproximadamente 200 líneas, está bien mantener la documentación en el readme."
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/014-docs.md
-#, fuzzy, no-wrap
-#| msgid "The definitive guide to Yii 3.0"
-msgid "Definitive guide"
-msgstr "La Guía Definitiva de Yii 3.0"
-
-#. type: Plain text
-#: ../src/internals/014-docs.md
-msgid "The definitive guide, [yiisoft/docs/guide](https://github.com/yiisoft/docs/tree/master/guide/en)  aims at covering usage of packages as a whole framework. Unlike package documentation, it isn't focused on a single package but is covering certain use-cases."
+#, no-wrap
+msgid "Guía definitiva"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "The guide should follow [Microsoft style guide](https://learn.microsoft.com/en-us/style-guide/welcome/)."
+msgid "La guía definitiva, [yiisoft/docs/guide](https://github.com/yiisoft/docs/tree/master/guide/en)  tiene como objetivo cubrir el uso de paquetes como un framework completo. A diferencia de la documentación de paquetes, no está enfocada en un solo paquete sino que cubre ciertos casos de uso."
+msgstr ""
+
+#. type: Plain text
+#: ../src/internals/014-docs.md
+msgid "La guía debería seguir [Microsoft style guide](https://learn.microsoft.com/en-us/style-guide/welcome/)."
 msgstr ""
 
 #. type: Title ###
 #: ../src/internals/014-docs.md
 #, no-wrap
-msgid "Translation"
+msgid "Traducción"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
 #, no-wrap
-msgid "The definitive guide uses [po4a](https://github.com/mquinson/po4a) in GitHub Action for translations.  \n"
+msgid "La guía definitiva usa [po4a](https://github.com/mquinson/po4a) en GitHub Action para traducciones.  \n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Translation algorithm:"
+msgid "Algoritmo de traducción:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Install an application for working with `.po` translation files. For example, [Poedit](https://poedit.net/), [Lokalize](https://apps.kde.org/ru/lokalize/), [Gtranslator](https://wiki.gnome.org/Apps/Gtranslator) or another."
+msgid "Instala una aplicación para trabajar con archivos de traducción `.po`. Por ejemplo, [Poedit](https://poedit.net/), [Lokalize](https://apps.kde.org/ru/lokalize/), [Gtranslator](https://wiki.gnome.org/Apps/Gtranslator) u otra."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Find file what you want to translate in `_translations/guide/{lang}`. Note that if the source file is in a subfolder, the subfolder name is appended to the file name and separated by an underscore, for example, for translating `guide/en/concept/aliases.md` file find `_translations/guide/{lang}/concept_aliases.md.po` file."
+msgid "Encuentra el archivo que quieres traducir en `_translations/guide/{lang}`. Ten en cuenta que si el archivo fuente está en un subdirectorio, el nombre del subdirectorio se anexa al nombre del archivo y separado por un guion bajo, por ejemplo, para traducir el archivo `guide/en/concept/aliases.md` encuentra el archivo `_translations/guide/{lang}/concept_aliases.md.po`."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Open the file with the `.po` extension in `Poedit` from the folder with the desired localization, for example `_translations/guide/ru/intro_what-is-yii.md.po`. If there is no localization yet, create an issue."
+msgid "Abre el archivo con extensión `.po` en `Poedit` desde la carpeta con la localización deseada, por ejemplo `_translations/guide/ru/intro_what-is-yii.md.po`. Si no hay localización aún, crea un issue."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Translate necessary strings and push the changes"
+msgid "Traduce las cadenas necesarias y sube los cambios"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Open a pull request to the main repository"
+msgid "Abre un pull request al repositorio principal"
 msgstr ""
 
 #. type: Plain text
@@ -123,38 +121,38 @@ msgstr ""
 #, no-wrap
 msgid ""
 "> [!CAUTION]\n"
-"> Do not change the translation in files in `/guide/{lang}` manually.\n"
+"> No cambiar la traducción en archivos en `/guide/{lang}` manualmente.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "If you have changed English and want to update translations:"
+msgid "Si has cambiado el inglés y quieres actualizar traducciones:"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Pull updated branch after successful completion of workflow `Update docs translation` in GitHub Action"
+msgid "Extrae rama actualizada después de completar exitosamente el workflow `Update docs translation` en GitHub Action"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Update translation in `.po` files by `Poedit`"
+msgid "Actualiza traducción en archivos `.po` con `Poedit`"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "Push changes"
+msgid "Empuja cambios"
 msgstr ""
 
 #. type: Title ##
 #: ../src/internals/014-docs.md
 #, no-wrap
-msgid "Blocks"
+msgid "Bloques"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Blocks are in the [GitHub Alerts format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts):"
+msgid "Los bloques están en el [formato GitHub Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts):"
 msgstr ""
 
 #. type: Fenced code block
@@ -162,24 +160,24 @@ msgstr ""
 #, no-wrap
 msgid ""
 "> [!NOTE]\n"
-"> Useful information that users should know, even when skimming content.\n"
+"> Información útil que los usuarios deberían conocer, incluso cuando están skimming contenido.\n"
 "\n"
 "> [!TIP]\n"
-"> Helpful advice for doing things better or more easily.\n"
+"> Consejos útiles para hacer cosas mejor o más fácilmente.\n"
 "\n"
 "> [!IMPORTANT]\n"
-"> Key information users need to know to achieve their goal.\n"
+"> Información clave que los usuarios necesitan conocer para lograr su objetivo.\n"
 "\n"
 "> [!WARNING]\n"
-"> Urgent info that needs immediate user attention to avoid problems.\n"
+"> Información urgente que necesita atención inmediata del usuario para evitar problemas.\n"
 "\n"
 "> [!CAUTION]\n"
-"> Advises about risks or negative outcomes of certain actions.\n"
+"> Da consejos sobre riesgos o resultados negativos de ciertas acciones.\n"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "When translating documentation, these Block indicators should not be translated.  Keeps them intact as they are and only translate the block content.  For translating the label for the block, each guide translation should have a `blocktypes.json` file containing the translations. The following shows an example for German:"
+msgid "Al traducir documentación, estos indicadores de bloque no deberían traducirse.  Manténlos intactos como están y solo traduce el contenido del bloque.  Para traducir la etiqueta del bloque, cada traducción de guía debería tener un archivo `blocktypes.json` conteniendo las traducciones. Lo siguiente muestra un ejemplo para alemán:"
 msgstr ""
 
 #. type: Fenced code block (json)
@@ -203,7 +201,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "PHPDoc mustn't be added if it doesn't add anything to what it describes. The following is a bad example:"
+msgid "PHPDoc no debe añadirse si no añade nada a lo que describe. Lo siguiente es un ejemplo malo:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -213,7 +211,7 @@ msgid ""
 "use Psr\\Log\\LoggerInterface;\n"
 "\n"
 "/**\n"
-" * MyService class\n"
+" * Clase MyService\n"
 " */\n"
 "final class MyService extends MyServiceBase\n"
 "{\n"
@@ -223,7 +221,7 @@ msgid ""
 "    private LoggerInterface $logger;\n"
 "\n"
 "    /**\n"
-"     * MyService constructor.\n"
+"     * Constructor de MyService.\n"
 "     * @param LoggerInterface $logger\n"
 "     */\n"
 "    public function __construct(LoggerInterface $logger)\n"
@@ -243,17 +241,17 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "PHPDoc, if present, should describe the purpose of the element it's added for."
+msgid "PHPDoc, si está presente, debería describir el propósito del elemento para el que se añade."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Skip default values in PHPDoc when PHP already shows them in a parameter default, promoted property default, or property initializer. The declaration is the source of truth, and repeating the value in text can become outdated after code changes."
+msgid "Omita valores por defecto en PHPDoc cuando PHP ya los muestra en un valor por defecto de parámetro, valor por defecto de propiedad promovida, o propiedad inicializador. La declaración es la fuente de verdad, y repetir el valor en texto puede volverse desactualizado después de cambios de código."
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Example of incorrect code:"
+msgid "Ejemplo de código incorrecto:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -271,7 +269,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Example of a valid code:"
+msgid "Ejemplo de código válido:"
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -289,7 +287,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "The `@see` tags must explicitly refer to class methods, properties, and constants. This is necessary for the correct display of links in IDEs, as well as for the correct display of links in API documentation."
+msgid "Las etiquetas `@see` deben referirse explícitamente a métodos, propiedades y constantes de clase. Esto es necesario para la correcta visualización de enlaces en IDEs, así como para la correcta visualización de enlaces en documentación de API."
 msgstr ""
 
 #. type: Fenced code block (php)
@@ -329,12 +327,12 @@ msgstr ""
 #. type: Title ##
 #: ../src/internals/014-docs.md
 #, no-wrap
-msgid "Readme checklist"
+msgid "Checklist de README"
 msgstr ""
 
 #. type: Plain text
 #: ../src/internals/014-docs.md
-msgid "Each package readme should be placed into `README.md` and contain the following:"
+msgid "Cada readme de paquete debería colocarse en `README.md` y contener lo siguiente:"
 msgstr ""
 
 #. type: Bullet: '- '
@@ -344,50 +342,50 @@ msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Short description of the package. What does it do?"
+msgid "[ ] Descripción corta del paquete. ¿Qué hace?"
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Quality badges (build, code coverage)."
+msgid "[ ] Badges de calidad (build, code coverage)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Screenshot (if applicable)."
+msgid "[ ] Screenshot (si aplica)."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Requirements."
+msgid "[ ] Requisitos."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Installation. Usually `composer require`."
+msgid "[ ] Instalación. Usualmente `composer require`."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Getting started. One or two common usage examples are demonstrated."
+msgid "[ ] Getting started. Uno o dos ejemplos de uso común son demostrados."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Configuration."
+msgid "[ ] Configuración."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Contributing. It should contain a link to guidelines."
+msgid "[ ] Contributing. Debería contener un enlace a guías."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] Running tests."
+msgid "[ ] Ejecutar tests."
 msgstr ""
 
 #. type: Bullet: '- '
 #: ../src/internals/014-docs.md
-msgid "[ ] License."
+msgid "[ ] Licencia."
 msgstr ""

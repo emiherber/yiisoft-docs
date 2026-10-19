@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-01-13 11:06+0000\n"
-"PO-Revision-Date: 2025-12-24 08:23+0000\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-10-19 03:41+0000\n"
+"PO-Revision-Date: 2026-10-19 01:03-0300\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -15,48 +15,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.10\n"
 
 #. type: Yaml Front Matter Hash Value: features details
 #: ../src/index.md
 #, no-wrap
 msgid "Yii gives you the maximum functionality by adding the least possible overhead."
-msgstr ""
+msgstr "Yii te ofrece la máxima funcionalidad con la mínima sobrecarga posible."
 
 #. type: Yaml Front Matter Hash Value: features title
 #: ../src/index.md
 #, no-wrap
 msgid "Fast"
-msgstr ""
+msgstr "Rápido"
 
 #. type: Yaml Front Matter Hash Value: features details
 #: ../src/index.md
 #, no-wrap
 msgid "Sane defaults and built-in tools helps you write solid and secure code."
-msgstr ""
+msgstr "La configuración predeterminada sensata y las herramientas integradas te ayudan a escribir código sólido y seguro."
 
 #. type: Yaml Front Matter Hash Value: features title
 #: ../src/index.md
 #, no-wrap
 msgid "Secure"
-msgstr ""
+msgstr "Seguro"
 
 #. type: Yaml Front Matter Hash Value: features details
 #: ../src/index.md
 #, no-wrap
 msgid "Write more code in less time with simple, yet powerful APIs and code generation."
-msgstr ""
+msgstr "Escribe más código en menos tiempo con APIs sencillas pero potentes y generación de código."
 
 #. type: Yaml Front Matter Hash Value: features title
 #: ../src/index.md
 #, no-wrap
 msgid "Efficient"
-msgstr ""
+msgstr "Eficiente"
 
 #. type: Yaml Front Matter Hash Value: hero actions text
 #: ../src/index.md
 #, no-wrap
 msgid "Get Started"
-msgstr ""
+msgstr "Comience"
 
 #. type: Yaml Front Matter Hash Value: hero name
 #: ../src/index.md
@@ -68,13 +69,13 @@ msgstr ""
 #: ../src/index.md
 #, no-wrap
 msgid "A simple, powerful and fast framework. Meet the modern, definitive guide to Yii you've always wanted."
-msgstr ""
+msgstr "Un framework sencillo, potente y rápido. Descubre la guía moderna y definitiva de Yii que siempre has deseado."
 
-#. type: Title ##
-#: ../src/index.md ../src/internals/003-roadmap.md
+#. type: Yaml Front Matter Hash Value: hero text
+#: ../src/index.md
 #, no-wrap
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #. type: Plain text
 #: ../src/index.md
@@ -85,14 +86,14 @@ msgstr ""
 #. type: Bullet: '- '
 #: ../src/index.md
 msgid "[The Definitive Guide](guide/) — the comprehensive guide covering all aspects of the framework."
-msgstr ""
+msgstr "[La guía definitiva](guide/) — una guía exhaustiva que abarca todos los aspectos del marco de trabajo."
 
 #. type: Bullet: '- '
 #: ../src/index.md
 msgid "[Community Cookbook](cookbook/) — a collection of community-contributed tips, tricks, and solutions for common Yii development tasks."
-msgstr ""
+msgstr "[Recetario comunitario](cookbook/) — una recopilación de consejos, trucos y soluciones aportados por la comunidad para tareas habituales de desarrollo en Yii."
 
 #. type: Bullet: '- '
 #: ../src/index.md
 msgid "[Internals](internals/) — documentation for developers contributing to the Yii framework itself, including guidelines, workflows, and best practices."
-msgstr ""
+msgstr "[Componentes internos](internals/) — documentación para los desarrolladores que contribuyen al propio framework Yii, que incluye directrices, flujos de trabajo y mejores prácticas."
