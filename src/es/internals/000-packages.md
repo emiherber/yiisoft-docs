@@ -1,42 +1,46 @@
-# 000 — Packages
+# 000 — Paquetes
 
-Yii3 team divided the framework into several packages that conform to the
-following agreements.
+El equipo de Yii3 dividió el framework en varios paquetes que cumplen con
+los siguientes acuerdos.
 
-For all packages, the GitHub repository name exactly matches the Packagist
-package name.
+Para todos los paquetes, el nombre del repositorio de GitHub coincide
+exactamente con el nombre del paquete de Packagist.
 
-For a full list of packages and their building status, see [status page at
+Para obtener una lista completa de paquetes y su estado de compilación,
+consulta la [página de estado en
 yiiframework.com](https://www.yiiframework.com/status/3.0).
 
-## Yii-specific packages (framework and extensions)
+## Paquetes específicos de Yii (framework y extensiones)
     
-- named `yiisoft/yii-something` or more specific: `yii-type-something` e.g.:
-    - modules: `yii-module-users`, `yii-module-pages`
-    - themes: `yii-theme-adminlte`, `yii-theme-hyde`
+- nombrados como `yiisoft/yii-something` o más específicos:
+  `yii-type-something` e.j.:
+    - módulos: `yii-module-users`, `yii-module-pages`
+    - temas: `yii-theme-adminlte`, `yii-theme-hyde`
     - widgets: `yii-widget-datepicker`
     - ...
-- titled as "Yii Framework ..."
-- may have any dependencies and Yii-specific code
+- titulados como "Yii Framework ..."
+- pueden tener cualquier dependencia y código específico de Yii
 
-## General purpose packages (libraries)
+## Paquetes de propósito general (bibliotecas)
   
-- you can use these independently of Yii Framework
-- named as `yiisoft/something` without yii-prefix
-- titled as "Yii ..."
-- must not have dependencies on any Yii-specific packages
-- should have as fewer dependencies as possible
+- puedes usarlos independientemente del Framework Yii
+- nombrados como `yiisoft/something` sin el prefijo yii
+- titulados como "Yii ..."
+- no deben tener dependencias de ningún paquete específico de Yii
+- deberían tener el menor número de dependencias posible
 
-## Configs and defaults
+## Configuraciones y valores por defecto
 
-The following applies to both Yii-specific packages and general purpose
-packages:
+Lo siguiente aplica tanto a paquetes específicos de Yii como a paquetes de
+propósito general:
 
-- Package may have `config` directory with Yii-specific defaults.
-- Package may have "config-plugin" in "extra" section of `composer.json`.
-- Package mustn't have dependencies in `require` section of `composer.json`
-  that are used in `config` only.
-- You should namespace parameters with `vendor/package-name`:
+- El paquete puede tener un directorio `config` con valores por defecto
+  específicos de Yii.
+- El paquete puede tener "config-plugin" en la sección "extra" de
+  `composer.json`.
+- El paquete no debe tener dependencias en la sección `require` de
+  `composer.json` que se usen solo en `config`.
+- Debes namespaeear los parámetros con `vendor/package-name`:
 
 ```php
 return [
@@ -47,24 +51,24 @@ return [
 ];
 ```
   
-## Versions
+## Versiones
 
-All packages follow [SemVer](https://semver.org/) versioning:
+Todos los paquetes siguen la versionado [SemVer](https://semver.org/):
 
-- `x.*.*` - incompatible API changes.
-- `*.x.*` - add functionality (backwards-compatible).
-- `*.*.x` - bug fixes (backwards-compatible).
+- `x.*.*` - cambios incompatibles en la API.
+- `*.x.*` - añadir funcionalidad (compatible hacia atrás).
+- `*.*.x` - correcciones de errores (compatible hacia atrás).
 
-The first stable version should be 1.0.0.
+La primera versión estable debe ser 1.0.0.
 
-Each package version number doesn't depend on any other package version or
-framework name/version, only on its own public contract.  The framework as a
-whole has the "Yii3" name.
+El número de versión de cada paquete no depende de la versión de ningún otro
+paquete o del nombre/versión del framework, solo en su propio contrato
+público.  El framework en su conjunto tiene el nombre "Yii3".
 
-It's alright to use packages with different major versions together, as long
-as they're compatible.
+Está bien usar paquetes con diferentes versiones mayores juntas, siempre que
+sean compatibles.
 
-## PHP versions support
+## Soporte de versiones de PHP
 
 The support of PHP versions supported for a package depends on [PHP versions
 life cycle](https://www.php.net/supported-versions.php).
